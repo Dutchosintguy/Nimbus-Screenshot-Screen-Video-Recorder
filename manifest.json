@@ -56,7 +56,6 @@
       "48": "images/icons/48x48.png"
    },
    "incognito": "spanning",
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCE2FIgHdWkDJH0H3Idf+PaGQcCsuKkw1BpBXVjfVKprO9xu3LiZM8/4NVUAOGBktLe3NiBFurwNLsLMTO7WsknokwWvm15Z4wM6YGFuUta39/y07CDKq49OaAoui0RrN8ogf6gjcAQW3fDfO4a24vqSoYk3ypWX5ZjD/+egMUvIQIDAQAB",
    "manifest_version": 2,
    "minimum_chrome_version": "43",
    "name": "__MSG_appName__",
@@ -68,7 +67,7 @@
    "options_page": "options.html",
    "permissions": [ "*://*/*", "\u003Call_urls>", "downloads", "clipboardWrite", "clipboardRead", "tabs", "activeTab", "storage", "unlimitedStorage", "contextMenus", "identity", "desktopCapture", "tabCapture" ],
    "short_name": "screen capture",
-   "update_url": "http://clients2.google.com/service/update2/crx",
+   "update_url": "https://bitst0rm.github.io/releases/bitst0rm-chrome-extensions/Nimbus-Screenshot-Screen-Video-Recorder/update.xml",
    "version": "8.5.5",
    "web_accessible_resources": [ "favicon.png", "fonts/*", "images/*", "css/*", "template/*" ]
 }
