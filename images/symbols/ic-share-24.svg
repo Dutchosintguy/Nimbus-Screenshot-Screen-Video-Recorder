@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-share-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-share-24">
+            <g>
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <polygon id="Line" fill="#5A5A5A" fill-rule="nonzero" points="6.346607 13.1902685 18.1902685 5.653393 17.653393 4.80973151 5.80973151 12.346607"></polygon>
+                <polygon id="Line" fill="#5A5A5A" fill-rule="nonzero" points="5.82162615 12.6995217 17.6995217 19.1783739 18.1783739 18.3004783 6.30047828 11.8216261"></polygon>
+                <path d="M6.5,16 C4.56700338,16 3,14.4329966 3,12.5 C3,10.5670034 4.56700338,9 6.5,9 C8.43299662,9 10,10.5670034 10,12.5 C10,14.4329966 8.43299662,16 6.5,16 Z" id="Oval-2" fill="#5A5A5A" fill-rule="nonzero"></path>
+                <path d="M17.5,9 C15.5670034,9 14,7.43299662 14,5.5 C14,3.56700338 15.5670034,2 17.5,2 C19.4329966,2 21,3.56700338 21,5.5 C21,7.43299662 19.4329966,9 17.5,9 Z" id="Oval-2" fill="#5A5A5A" fill-rule="nonzero"></path>
+                <path d="M17.5,8 C18.8807119,8 20,6.88071187 20,5.5 C20,4.11928813 18.8807119,3 17.5,3 C16.1192881,3 15,4.11928813 15,5.5 C15,6.88071187 16.1192881,8 17.5,8 Z" id="Path" fill="#D1D1D1"></path>
+                <path d="M17.5,22 C15.5670034,22 14,20.4329966 14,18.5 C14,16.5670034 15.5670034,15 17.5,15 C19.4329966,15 21,16.5670034 21,18.5 C21,20.4329966 19.4329966,22 17.5,22 Z" id="Oval-2" fill="#5A5A5A" fill-rule="nonzero"></path>
+                <path d="M17.5,21 C18.8807119,21 20,19.8807119 20,18.5 C20,17.1192881 18.8807119,16 17.5,16 C16.1192881,16 15,17.1192881 15,18.5 C15,19.8807119 16.1192881,21 17.5,21 Z" id="Path" fill="#FFFFFF"></path>
+                <path d="M6.5,15 C7.88071187,15 9,13.8807119 9,12.5 C9,11.1192881 7.88071187,10 6.5,10 C5.11928813,10 4,11.1192881 4,12.5 C4,13.8807119 5.11928813,15 6.5,15 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

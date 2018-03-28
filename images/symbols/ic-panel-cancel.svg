@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-panel-cancel</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-panel-cancel">
+            <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+            <polygon id="Combined-Shape" fill="#9F9F9F" points="9.33333333 8 14 3.33333333 12.6666667 2 8 6.66666667 3.33333333 2 2 3.33333333 6.66666667 8 2 12.6666667 3.33333333 14 8 9.33333333 12.6666667 14 14 12.6666667"></polygon>
+        </g>
+    </g>
+</svg>

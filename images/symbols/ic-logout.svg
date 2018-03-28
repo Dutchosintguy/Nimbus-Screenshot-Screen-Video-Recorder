@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-logout</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-942.000000, -195.000000)">
+            <g transform="translate(942.000000, 195.000000)">
+                <g>
+                    <rect x="0" y="0" width="16" height="16"></rect>
+                    <rect fill="#9F9F9F" x="5" y="7" width="9" height="2"></rect>
+                    <rect fill="#9F9F9F" x="0" y="0" width="2" height="16"></rect>
+                    <rect fill="#9F9F9F" x="0" y="0" width="11" height="2"></rect>
+                    <polygon fill="#9F9F9F" points="11.7071068 11.7071068 14.2071068 9.20710678 14.9142136 8.5 13.5 7.08578644 12.7928932 7.79289322 10.2928932 10.2928932 9.58578644 11 11 12.4142136"></polygon>
+                    <polygon fill="#9F9F9F" points="10.7928932 6.20710678 13.2928932 8.70710678 14 9.41421356 15.4142136 8 14.7071068 7.29289322 12.2071068 4.79289322 11.5 4.08578644 10.0857864 5.5"></polygon>
+                    <rect fill="#9F9F9F" x="0" y="14" width="11" height="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

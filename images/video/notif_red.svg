@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>notif_red</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="23" cy="23" r="23"></circle>
+        <filter x="-8.7%" y="-4.3%" width="117.4%" height="117.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.659438776   0 0 0 0 0.086020541   0 0 0 0 0.086020541  0 0 0 0.344542572 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notif_red">
+            <g>
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#E72727" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M24.6279297,26.6586914 L20.9345703,26.6586914 L20.1625977,11.8701172 L25.3999023,11.8701172 L24.6279297,26.6586914 Z M20.1020508,31.8354492 C20.1020508,31.361163 20.1701653,30.960044 20.3063965,30.6320801 C20.4426276,30.3041162 20.6318347,30.0392263 20.8740234,29.8374023 C21.1162121,29.6355784 21.3987614,29.4892583 21.7216797,29.3984375 C22.044598,29.3076167 22.392739,29.262207 22.7661133,29.262207 C23.1193052,29.262207 23.4548324,29.3076167 23.7727051,29.3984375 C24.0905778,29.4892583 24.3706043,29.6355784 24.612793,29.8374023 C24.8549817,30.0392263 25.0467115,30.3041162 25.1879883,30.6320801 C25.329265,30.960044 25.3999023,31.361163 25.3999023,31.8354492 C25.3999023,32.2895531 25.329265,32.6780583 25.1879883,33.0009766 C25.0467115,33.3238948 24.8549817,33.5913075 24.612793,33.8032227 C24.3706043,34.0151378 24.0905778,34.1690262 23.7727051,34.2648926 C23.4548324,34.3607589 23.1193052,34.4086914 22.7661133,34.4086914 C22.392739,34.4086914 22.044598,34.3607589 21.7216797,34.2648926 C21.3987614,34.1690262 21.1162121,34.0151378 20.8740234,33.8032227 C20.6318347,33.5913075 20.4426276,33.3238948 20.3063965,33.0009766 C20.1701653,32.6780583 20.1020508,32.2895531 20.1020508,31.8354492 Z" id="!" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

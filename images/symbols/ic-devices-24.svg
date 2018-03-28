@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-devices-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-devices-24">
+            <g>
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <rect id="Rectangle-3" fill="#5A5A5A" x="2" y="3" width="20" height="18" rx="2"></rect>
+                <rect id="Rectangle-4" fill="#FFFFFF" x="3" y="4" width="18" height="16" rx="1"></rect>
+                <rect id="Rectangle-5" fill="#D1D1D1" x="4" y="5" width="16" height="14" rx="1"></rect>
+                <path d="M13,11.0058587 C13,9.89805351 13.8874333,9 14.999615,9 L21.000385,9 C22.1047419,9 23,9.89706013 23,11.0058587 L23,20.9941413 C23,22.1019465 22.1125667,23 21.000385,23 L14.999615,23 C13.8952581,23 13,22.1029399 13,20.9941413 L13,11.0058587 Z" id="Path" fill="#5A5A5A"></path>
+                <path d="M14,11.0058587 L14,20.9941413 C14,21.5509324 14.447823,22 14.999615,22 L21.000385,22 C21.5562715,22 22,21.5536796 22,20.9941413 L22,11.0058587 C22,10.4490676 21.552177,10 21.000385,10 L14.999615,10 C14.4437285,10 14,10.4463204 14,11.0058587 Z" id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <rect id="Rectangle-6" fill="#5A5A5A" x="17" y="20" width="2" height="1" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

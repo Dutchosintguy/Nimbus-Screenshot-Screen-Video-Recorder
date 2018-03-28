@@ -1,0 +1,602 @@
+{
+   "appDesc": {
+      "message": "Zaznamenejte celou webovou stránku nebo její část. Upravujte snímky obrazovky. Pořizujte video záznamy obrazovky."
+   },
+   "appName": {
+      "message": "Nimbus snímky obrazovky a záznam videa"
+   },
+   "appNameMini": {
+      "message": "Nimbus snímky obrazovky"
+   },
+   "btnAccessMic": {
+      "message": "Přístup k mikrofonu"
+   },
+   "btnAndroidVersion": {
+      "message": "Verze Androidu"
+   },
+   "btnBlankScreen": {
+      "message": "Prázdná obrazovka"
+   },
+   "btnBrowserWindow": {
+      "message": "Okno prohlížeče"
+   },
+   "btnCaptureFragment": {
+      "message": "Prvek stránky"
+   },
+   "btnCaptureVideo": {
+      "message": "Zaznamenat video"
+   },
+   "btnConnectSlack": {
+      "message": "Připojit Slack"
+   },
+   "btnDelayedScreen": {
+      "message": "Zpožděné zachycení"
+   },
+   "btnDesktop": {
+      "message": "Zachycení z plochy"
+   },
+   "btnEnableCopy": {
+      "message": "Kopírovat do schránky"
+   },
+   "btnEnableDownload": {
+      "message": "Odeslat na Nimbus/Google/Slack"
+   },
+   "btnEnableEdit": {
+      "message": "Upravit"
+   },
+   "btnEnableSave": {
+      "message": "Stáhnout"
+   },
+   "btnEntirePage": {
+      "message": "Celá stránka"
+   },
+   "btnManual": {
+      "message": "Návod"
+   },
+   "btnOptions": {
+      "message": "Nastavení"
+   },
+   "btnReadyVideo": {
+      "message": "Můžeme začít se záznamem videa"
+   },
+   "btnSelectedArea": {
+      "message": "Vybraná oblast"
+   },
+   "btnSelectedScroll": {
+      "message": "Výběr a posuv"
+   },
+   "btnVisiblePage": {
+      "message": "Viditelná část stránky"
+   },
+   "cropBtnCancel": {
+      "message": "Zrušit"
+   },
+   "cropBtnCopy": {
+      "message": "Kopírovat do schránky"
+   },
+   "cropBtnEdit": {
+      "message": "Upravit"
+   },
+   "cropBtnNimbus": {
+      "message": "Odeslat na Nimbus"
+   },
+   "cropBtnSave": {
+      "message": "Uložit jako obrázek"
+   },
+   "editBtnBack": {
+      "message": "Zpět"
+   },
+   "editBtnCopy": {
+      "message": "Kopírovat do schránky"
+   },
+   "editBtnDone": {
+      "message": "Hotovo"
+   },
+   "editBtnDrive": {
+      "message": "Odeslat na Google"
+   },
+   "editBtnNimbus": {
+      "message": "Odeslat na Nimbus"
+   },
+   "editBtnPrint": {
+      "message": "Tisknout"
+   },
+   "editBtnSave": {
+      "message": "Uložit jako obrázek"
+   },
+   "editBtnSaveVideo": {
+      "message": "Uložit video"
+   },
+   "gDriveBtnDone": {
+      "message": "Hotovo"
+   },
+   "gDriveLabel": {
+      "message": "Vyberte složku, do které chcete snímek uložit"
+   },
+   "gDriveLabelFolders": {
+      "message": "Snímek obrazovky bude uložen ve složce"
+   },
+   "gDriveMainFolder": {
+      "message": "Toto je hlavní složka"
+   },
+   "gDriveNoItems": {
+      "message": "Žádné položky"
+   },
+   "gDriveNotAuthorized": {
+      "message": "Nejste přihlášeni ke svému účtu"
+   },
+   "gDriveSendTo": {
+      "message": "Odeslat do…"
+   },
+   "gDriveTitle": {
+      "message": "Odeslat na Google Disk"
+   },
+   "labelCaptureHelper": {
+      "message": "Vyberte jednu z obrazovek pro zachycení."
+   },
+   "labelDropImage": {
+      "message": "sem přetáhněte obrázek"
+   },
+   "newReleaseText": {
+      "message": "\u003Cli>Some improvements and fixed some old bugs;\u003C/li>"
+   },
+   "newReleaseTitle": {
+      "message": "Vítá vás nová verze \u003Cbr>Nimbus Screenshot"
+   },
+   "nimbusAccessAnyTimes": {
+      "message": "Přistupujte k snímkům obrazovky a záznamům videa kdykoliv a z kteréhokoliv zařízení;"
+   },
+   "nimbusAccount": {
+      "message": "Nimbus účet"
+   },
+   "nimbusBad": {
+      "message": "Špatné"
+   },
+   "nimbusBeBetter": {
+      "message": "Je co zlepšovat"
+   },
+   "nimbusBtnAuthFacebook": {
+      "message": "Pomocí Facebooku"
+   },
+   "nimbusBtnAuthGoogle": {
+      "message": "Pomocí Google"
+   },
+   "nimbusBtnLogin": {
+      "message": "Přihlášení na Nimbus Note"
+   },
+   "nimbusBtnRemind": {
+      "message": "Zapomenuté heslo?"
+   },
+   "nimbusBtnSignup": {
+      "message": "Vytvořit účet"
+   },
+   "nimbusChannels": {
+      "message": "Kanály"
+   },
+   "nimbusComment": {
+      "message": "Komentář"
+   },
+   "nimbusCommentPlaceholder": {
+      "message": "Komentář ke snímku obrazovky"
+   },
+   "nimbusCreateAccount": {
+      "message": "Vytvořit účet"
+   },
+   "nimbusDid": {
+      "message": "Did"
+   },
+   "nimbusEnvironmentInfo": {
+      "message": "Přidat informace o systému a stránce"
+   },
+   "nimbusGoPro": {
+      "message": "Povyšte na Nimbus Pro"
+   },
+   "nimbusGood": {
+      "message": "Dobře!"
+   },
+   "nimbusLabelEmail": {
+      "message": "E-mail"
+   },
+   "nimbusLabelPassword": {
+      "message": "Heslo"
+   },
+   "nimbusLabelPasswordAndInfo": {
+      "message": "Heslo (min. 8 znaků)"
+   },
+   "nimbusLabelRetypePass": {
+      "message": "Heslo znovu"
+   },
+   "nimbusLimitDescription": {
+      "message": "\u003Cb>Můžete povýšit na Nimbus Pro\u003C/b> pro navýšení měsíčního limitu na 1 GB."
+   },
+   "nimbusLimitOf": {
+      "message": "z"
+   },
+   "nimbusLimitSpace": {
+      "message": "Bohužel, soubor nebudete moci nahrát, protože \u003Cstrong>váš měsíční limit pro přenos (100 MB) bude brzy vyčerpán\u003C/strong>."
+   },
+   "nimbusLimitUsage": {
+      "message": "Využití:"
+   },
+   "nimbusLimitVideo": {
+      "message": "Bohužel, velikost videa\u003Cbr>překročila 10 MB"
+   },
+   "nimbusLimitVideoDestruction": {
+      "message": "Pokud chcete nahrátd\u003Cbr>\u003Cb>video větší než 10 MB\u003C/b>, musíte\u003Cbr>povýšit na \u003Cb>Nimbus Pro\u003C/b>"
+   },
+   "nimbusNoThanks": {
+      "message": "Ne, díky"
+   },
+   "nimbusNotAccount": {
+      "message": "Nemám účet"
+   },
+   "nimbusNoteName": {
+      "message": "Název poznámky"
+   },
+   "nimbusPlaceholderEmail": {
+      "message": "E-mail"
+   },
+   "nimbusPlaceholderPassword": {
+      "message": "Heslo"
+   },
+   "nimbusPrivate": {
+      "message": "Soukromé"
+   },
+   "nimbusPrivateMessage": {
+      "message": "Soukromá zpráva"
+   },
+   "nimbusRate": {
+      "message": "Líbí se vám Nimbus Screenshot? Ohodnoťe jej!"
+   },
+   "nimbusRateUs": {
+      "message": "Ohodnoťte nás"
+   },
+   "nimbusRegistration": {
+      "message": "Registrace"
+   },
+   "nimbusRemindPass": {
+      "message": "Připomenout heslo"
+   },
+   "nimbusSaveScreencast": {
+      "message": "Uložit záznam videa"
+   },
+   "nimbusSaveScreenshot": {
+      "message": "Uložit snímek obrazovky"
+   },
+   "nimbusSearch": {
+      "message": "Hledat"
+   },
+   "nimbusSelectChannel": {
+      "message": "Vyberte kanál"
+   },
+   "nimbusSelectFolder": {
+      "message": "Vybrat složku"
+   },
+   "nimbusSend": {
+      "message": "Odeslat na Nimbus Note"
+   },
+   "nimbusShareFriends": {
+      "message": "Pošlete snímky obrazovky a záznamy videa vašim přátelům a kolegům;"
+   },
+   "nimbusSlackAccount": {
+      "message": "Slack účet"
+   },
+   "nimbusSlackHidePanel": {
+      "message": "Skrýt Slack panel"
+   },
+   "nimbusSlackLogout": {
+      "message": "Odhlásit Slack"
+   },
+   "nimbusSlackSend": {
+      "message": "Odeslat na Slack"
+   },
+   "nimbusSlackWelcome": {
+      "message": "\u003Cb>Udělejte si chvilku na přečtení:\u003C/b>\u003Cp>• Aplikace Nimbus snímky obrazovky nebude mít přístup k vašim zprávám v chatu.\u003Cbr/>• Všechny vaše konverzace zůstanou soukromé.\u003Cbr/>• Aplikace Nimbus snímky obrazovky může nahrávat snímky obrazovky pouze na Slack.\u003C/p>V případě dotazů nás neváhejte kontakovat prostřednictvím e-mailu."
+   },
+   "nimbusSupport": {
+      "message": "Podpora"
+   },
+   "nimbusUpgradePro": {
+      "message": "Proč je Nimbus Pro lepší"
+   },
+   "nimbusViewUploads": {
+      "message": "Zobrazit mé nahrané soubory"
+   },
+   "notificationCopy": {
+      "message": "Obrázek byl zkopírován do schránky."
+   },
+   "notificationEmailFail": {
+      "message": "Tato e-mailová adresa je již používána."
+   },
+   "notificationEmailIncorrect": {
+      "message": "Nesprávný e-mail. Zkuste to znovu."
+   },
+   "notificationInsertInfo": {
+      "message": "Můžete vložit pouze obrázek."
+   },
+   "notificationLoginFail": {
+      "message": "Přihlášení se nezdařilo. Zkuste to znovu."
+   },
+   "notificationNetworkError": {
+      "message": "Problém se serverem nebo vaším připojením k Internetu. Zkuste to znovu."
+   },
+   "notificationReachedLimit": {
+      "message": "Byl dosažen měsíční limit pro přenosy (100 MB). Pro pokračování si musíte zakoupit Nimbus Pro."
+   },
+   "notificationRegisterFail": {
+      "message": "Registrace se nezdařila. Zkuste to znovu."
+   },
+   "notificationRestoreSent": {
+      "message": "Pokyny k obnovení byly odeslány na váš e-mail."
+   },
+   "notificationUploaded": {
+      "message": "Nahrávání bylo dokončeno."
+   },
+   "notificationUrlCopied": {
+      "message": "URL adresa byla zkopírována do schránky."
+   },
+   "notificationWrong": {
+      "message": "Něco je špatně. Zkuste to znovu."
+   },
+   "optionsCaptureSettings": {
+      "message": "Nastavení snímků obrazovky"
+   },
+   "optionsLabelAfterClicking": {
+      "message": "Po klepnutí na ikonu"
+   },
+   "optionsLabelAndThen": {
+      "message": "a poté"
+   },
+   "optionsLabelCanUse": {
+      "message": "Dostupné proměnné:"
+   },
+   "optionsLabelDelayedScreenshotTime": {
+      "message": "Prodleva pro zpožděné zachycení [s]"
+   },
+   "optionsLabelFilenameTemplate": {
+      "message": "Šablona názvu souboru"
+   },
+   "optionsLabelHideFixedElements": {
+      "message": "Skrýt pevně umístěné prvky"
+   },
+   "optionsLabelImageFormat": {
+      "message": "Formát"
+   },
+   "optionsLabelImageQuality": {
+      "message": "Kvalita"
+   },
+   "optionsLabelLoadToNS": {
+      "message": "Odeslat na Nimbus/Slack"
+   },
+   "optionsLabelQuickCaptureEnable": {
+      "message": "Povolit rychlý snímek obrazovky (bez otevírání nabídky)"
+   },
+   "optionsLabelSaveAs": {
+      "message": "Zobrazovat dialog „Uložit jako“"
+   },
+   "optionsLabelSaveCropPosition": {
+      "message": "Uložit pozici vybrané oblasti"
+   },
+   "optionsLabelWantCapture": {
+      "message": "pořídit snímek obrazovky"
+   },
+   "optionsMainMenu": {
+      "message": "Nastavení hlavní nabídky"
+   },
+   "optionsSettingImage": {
+      "message": "Nastavení obrázku"
+   },
+   "optionsSettingsSave": {
+      "message": "Uložit nastavení"
+   },
+   "optionsShortcutSettings": {
+      "message": "Nastavení klávesových zkratek"
+   },
+   "optionsTitle": {
+      "message": "Nastavení snímků obrazovky"
+   },
+   "panelActions": {
+      "message": "Akce"
+   },
+   "panelAlfaChanel": {
+      "message": "Posuvníkem nastavte úroveň průhlednosti"
+   },
+   "panelCancel": {
+      "message": "Zrušit"
+   },
+   "panelChange": {
+      "message": "Změnit"
+   },
+   "panelHeight": {
+      "message": "Výška"
+   },
+   "panelParameters": {
+      "message": "Parametry"
+   },
+   "panelProportional": {
+      "message": "Proporcionální"
+   },
+   "panelShadow": {
+      "message": "Stín"
+   },
+   "panelSize": {
+      "message": "Velikost"
+   },
+   "panelTools": {
+      "message": "Nástroje pro kreslení"
+   },
+   "panelWidth": {
+      "message": "Šířka"
+   },
+   "popupAccessMic": {
+      "message": "Pro začátek musíte povolit přístup k mikrofonu"
+   },
+   "popupAfterCapture": {
+      "message": "Ready screenshot"
+   },
+   "popupBtnBack": {
+      "message": "zpět"
+   },
+   "popupBtnDesktopRecord": {
+      "message": "Plochy"
+   },
+   "popupBtnStopRecord": {
+      "message": "Zastavit záznam"
+   },
+   "popupBtnTabRecord": {
+      "message": "Listu"
+   },
+   "popupLabelCountdown": {
+      "message": "Odpočítávání"
+   },
+   "popupLabelCursorAnimate": {
+      "message": "Animovaný kurzor"
+   },
+   "popupLabelRecordMic": {
+      "message": "Zaznamenat zvuk z mikrofonu"
+   },
+   "popupLabelRecordTab": {
+      "message": "Zaznamenat zvuk z listu"
+   },
+   "popupMyNotes": {
+      "message": "Moje poznámky"
+   },
+   "popupReadManual": {
+      "message": "Můžete si také přečíst instrukce k používání této aplikace"
+   },
+   "popupRecordTitle": {
+      "message": "Zde je záznam"
+   },
+   "popupSec": {
+      "message": "s"
+   },
+   "popupTitle": {
+      "message": "Types screenshots"
+   },
+   "popupVideoTitle": {
+      "message": "Zaznamenat video"
+   },
+   "popupWelcomeVideo": {
+      "message": "Vítá vás zaznamenávání videa"
+   },
+   "tooltipArrowCurve": {
+      "message": "Křivka se šipkou"
+   },
+   "tooltipArrowDouble": {
+      "message": "Dvojitá šipka"
+   },
+   "tooltipArrowLine": {
+      "message": "Čára se šipkou"
+   },
+   "tooltipBlur": {
+      "message": "Rozmazat oblast"
+   },
+   "tooltipChangeZoom": {
+      "message": "Změnit měřítko"
+   },
+   "tooltipCircle": {
+      "message": "Kruh"
+   },
+   "tooltipColorAndSizeShadow": {
+      "message": "Barva a velikost stínu"
+   },
+   "tooltipColorFull": {
+      "message": "Barva výplně"
+   },
+   "tooltipColorLineAndText": {
+      "message": "Barva čáry a textu"
+   },
+   "tooltipCopy": {
+      "message": "Kopírovat do schránky"
+   },
+   "tooltipCrop": {
+      "message": "Oříznout"
+   },
+   "tooltipEllipse": {
+      "message": "Elipsa"
+   },
+   "tooltipFontAndSize": {
+      "message": "Písmo a velikost"
+   },
+   "tooltipLine": {
+      "message": "Čára"
+   },
+   "tooltipLineCurve": {
+      "message": "Křivka"
+   },
+   "tooltipLineDotted": {
+      "message": "Tečkovaná čára"
+   },
+   "tooltipLineWidth": {
+      "message": "Tloušťka čáry"
+   },
+   "tooltipLock": {
+      "message": "Uzamknout ostatní tvary"
+   },
+   "tooltipMakeScreenshot": {
+      "message": "Pořídit snímek obrazovky"
+   },
+   "tooltipMarker": {
+      "message": "Zvýrazňovač"
+   },
+   "tooltipNoteText": {
+      "message": "Poznámka"
+   },
+   "tooltipNumber": {
+      "message": "Číslované značky"
+   },
+   "tooltipNumbers": {
+      "message": "Automatické číslování"
+   },
+   "tooltipOpenFile": {
+      "message": "Otevřít soubor"
+   },
+   "tooltipPassInfo": {
+      "message": "Heslo musí být dlouhé alespoň 8 znaků"
+   },
+   "tooltipPassMatch": {
+      "message": "Hesla nesouhlasí"
+   },
+   "tooltipPen": {
+      "message": "Pero"
+   },
+   "tooltipRedo": {
+      "message": "Opakovat"
+   },
+   "tooltipResize": {
+      "message": "Změnit velikost"
+   },
+   "tooltipRounded": {
+      "message": "Čtverec se zaoblenými rohy"
+   },
+   "tooltipShortUrl": {
+      "message": "Zkrácená adresa"
+   },
+   "tooltipSquare": {
+      "message": "Čtverec"
+   },
+   "tooltipText": {
+      "message": "Text"
+   },
+   "tooltipTextArrow": {
+      "message": "Popisek s odkazovou šipkou"
+   },
+   "tooltipUndo": {
+      "message": "Vrátit"
+   },
+   "tooltipUndoAll": {
+      "message": "Vrátit vše"
+   },
+   "tooltipUploadTo": {
+      "message": "Nahrát do"
+   },
+   "tooltipWrongEmail": {
+      "message": "Chybný e-mail"
+   },
+   "tooltipZoomMinus": {
+      "message": "Oddálit"
+   },
+   "tooltipZoomPlus": {
+      "message": "Přiblížit"
+   }
+}

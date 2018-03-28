@@ -1,0 +1,224 @@
+.nsc-icon-save-screenshot {background:url(chrome-extension://__MSG_@@extension_id__/images/edit_btn.png) no-repeat -90px 0;}
+.nsc-icon-back {background:url(chrome-extension://__MSG_@@extension_id__/images/new/back.png) no-repeat;}
+.nsc-icon-save-to-nimbus {background:url(chrome-extension://__MSG_@@extension_id__/images/new/save-to-nimbus.png) no-repeat #1aabc6;}
+.nsc-icon-save-image {background:url(chrome-extension://__MSG_@@extension_id__/images/new/save-image.png) no-repeat;}
+.nsc-icon-google-drive {background:url(chrome-extension://__MSG_@@extension_id__/images/new/google-drive.png) no-repeat;}
+.nsc-icon-slack {background:url(chrome-extension://__MSG_@@extension_id__/images/new/slack.png) no-repeat;}
+.nsc-icon-copy-clipboard {background:url(chrome-extension://__MSG_@@extension_id__/images/new/copy-clipboard.png) no-repeat;}
+.nsc-icon-print {background:url(chrome-extension://__MSG_@@extension_id__/images/new/print.png) no-repeat;}
+.nsc-icon-cancel {background:url(chrome-extension://__MSG_@@extension_id__/images/new/cancel.png) no-repeat;}
+.nsc-icon-nsc-logo {background:url(chrome-extension://__MSG_@@extension_id__/images/new/nsc-logo.png) no-repeat;}
+.nsc-icon-plus-color {background:url(chrome-extension://__MSG_@@extension_id__/images/new/plus-color.png) no-repeat;}
+.nsc-icon-slack-logo {background:url(chrome-extension://__MSG_@@extension_id__/images/new/slack-logo.png) no-repeat;}
+.nsc-icon-chain {background:url(chrome-extension://__MSG_@@extension_id__/images/copy17.png) no-repeat;}
+.nsc-icon-options {background:url(chrome-extension://__MSG_@@extension_id__/images/new/options.png) no-repeat;} 
+.nsc-icon-onoff {background:url(chrome-extension://__MSG_@@extension_id__/images/new/onoff.png) no-repeat;} 
+.nsc-icon-nsc-logo-dark {background:url(chrome-extension://__MSG_@@extension_id__/images/new/nsc-logo-dark.png) no-repeat;}
+
+.nsc-icon-visible {background:url(chrome-extension://__MSG_@@extension_id__/images/new/old-icons.png) no-repeat 0px 2px !important;}
+.nsc-icon-fragment {background:url(chrome-extension://__MSG_@@extension_id__/images/new/old-icons.png) no-repeat 0px -40px !important;}
+.nsc-icon-selected {background:url(chrome-extension://__MSG_@@extension_id__/images/new/old-icons.png) no-repeat 0px -81px !important;}
+.nsc-icon-entire {background:url(chrome-extension://__MSG_@@extension_id__/images/new/old-icons.png) no-repeat 0px -207px !important;}
+.nsc-icon-browser {background:url(chrome-extension://__MSG_@@extension_id__/images/new/old-icons.png) no-repeat 0px -249px !important;}
+.nsc-icon-blank {background:url(chrome-extension://__MSG_@@extension_id__/images/new/old-icons.png) no-repeat 0px -290px !important;}
+.nsc-icon-android {background:url(chrome-extension://__MSG_@@extension_id__/images/new/old-icons.png) no-repeat 0px -375px !important;}
+
+.nsc-icon-delayed-screenshot {background:url(chrome-extension://__MSG_@@extension_id__/images/new/delayed-screenshot.png) no-repeat center center;}
+.nsc-icon-selected-scroll {background:url(chrome-extension://__MSG_@@extension_id__/images/new/selected-scroll.png) no-repeat center center;}
+.nsc-icon-record-video {background:url(chrome-extension://__MSG_@@extension_id__/images/new/record-video.png) no-repeat center center;}
+
+.nsc-icon-drop-arrow {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-drop-arrow.svg) no-repeat center;}
+
+.nsc-icon-save-video {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-save-video.svg) no-repeat;}
+.nsc-icon-youtube {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-youtube.svg) no-repeat;}
+.nsc-icon-plus {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-plus.svg) no-repeat;}
+.nsc-icon-panel-cancel {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-panel-cancel.svg) no-repeat;}
+.nsc-icon-options-white-16 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-options-white-16.svg) no-repeat center; width:16px !important; height:16px !important;}
+.nsc-icon-gif-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-gif-24.svg) no-repeat; width:24px; height:24px;}
+.nsc-icon-mp4-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-mp4-24.svg) no-repeat; width:24px; height:24px;}
+.nsc-icon-webm {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-webm.svg) no-repeat; width:32px; height:24px;}
+
+.nsc-icon-cursor-normal {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-cursor-normal.svg) no-repeat center;}
+.nsc-icon-cursor-long {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-cursor-long.svg) no-repeat center;}
+.nsc-icon-cursor-circle {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-cursor-circle.svg) no-repeat center;}
+.nsc-icon-cursor-shade {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-cursor-shade.svg) no-repeat center;}
+.nsc-icon-cursor-tail {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-cursor-tail.svg) no-repeat center;}
+.nsc-icon-draw-arrow {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/pack.png) no-repeat -368px 0px;}
+.nsc-icon-pencil {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-pencil.svg) no-repeat center;}
+.nsc-icon-rectangle {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-rectangle.svg) no-repeat center;}
+.nsc-icon-attention {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-attention.svg) no-repeat center;}
+.nsc-icon-eraser {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-eraser.svg) no-repeat center;}
+.nsc-icon-eraser-all {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-eraser-all.svg) no-repeat center; width: 30px !important;}
+.nsc-icon-camera {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-camera.svg) no-repeat center;}
+.nsc-icon-ask {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-ask.svg) no-repeat center;}
+.nsc-icon-done {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-done.svg) no-repeat center;}
+.nsc-icon-line {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-line.svg) no-repeat center;}
+.nsc-icon-marker {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-marker.svg) no-repeat center;}
+.nsc-icon-blur {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-blur.svg) no-repeat center;}
+.nsc-icon-blur-all {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-blur-all.svg) no-repeat center;}
+.nsc-icon-undo {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-undo.svg) no-repeat center;}
+.nsc-icon-undo-all {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-undo-all.svg) no-repeat center;}
+.nsc-icon-question {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-question.svg) no-repeat center;}
+.nsc-icon-nimbus {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-nimbus.svg) no-repeat center;}
+.nsc-icon-pause {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-pause.svg) no-repeat center;}
+.nsc-icon-play {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-play.svg) no-repeat center;}
+.nsc-icon-stop {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-stop.svg) no-repeat center;}
+
+.nsc-icon-panel-expand {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-expand.svg) no-repeat center;}
+.nsc-icon-panel-close {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-close.svg) no-repeat center;}
+.nsc-icon-settings {background:url(chrome-extension://__MSG_@@extension_id__/images/new/settings.png) no-repeat center;}
+.nsc-icon-download {background:url(chrome-extension://__MSG_@@extension_id__/images/download.png) no-repeat center;}
+.nsc-icon-cloud-nimbus {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-cloud-nimbus.svg) no-repeat center;}
+
+.nsc-icon-nimbus-dark {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-nimubs-dark.svg) no-repeat center;}
+.nsc-icon-logout {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-logout.svg) no-repeat center;}
+
+.nsc-icon-nimbus-logo {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-nimbus-logo.svg) no-repeat center; background-size:100% 100% !important;}
+
+.nsc-icon-zoom-in {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-zoom-in.svg) no-repeat 0px 0px;}
+.nsc-icon-zoom-out {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-zoom-out.svg) no-repeat 0px 0px;}
+
+.nsc-icon-arrow {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-arrow.svg) no-repeat 0px 0px;}
+
+.nsc-icon-resize {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-resize.svg) no-repeat 0px 0px;}
+.nsc-icon-crop {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-crop.svg) no-repeat 0px 0px;}
+
+.nsc-icon-pen {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-pen.svg) no-repeat 0px 0px;}
+.nsc-icon-marker {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-marker.svg) no-repeat 0px 0px;}
+
+.nsc-icon-square {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-square.svg) no-repeat 0px 0px;}
+.nsc-icon-square-rounded {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-square-rounded.svg) no-repeat 0px 0px;}
+.nsc-icon-circle {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-circle.svg) no-repeat 0px 0px;}
+.nsc-icon-elipse {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-elipse.svg) no-repeat 0px 0px;}
+
+.nsc-icon-arrow-line {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-arrow-line.svg) no-repeat 0px 0px;}
+.nsc-icon-arrow-curve {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-arrow-curve.svg) no-repeat 0px 0px;}
+.nsc-icon-arrow-double {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-arrow-double.svg) no-repeat 0px 0px;}
+.nsc-icon-line {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line.svg) no-repeat 0px 0px;}
+.nsc-icon-line-curve {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-curve.svg) no-repeat 0px 0px;}
+.nsc-icon-line-dotted {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-dotted.svg) no-repeat 0px 0px;}
+
+.nsc-icon-draw-text {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-draw-text.svg) no-repeat 0px 0px;}
+
+.nsc-icon-note-text-arrow {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-note-text-arrow.svg) no-repeat 0px 0px;}
+.nsc-icon-note-text {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-note-text.svg) no-repeat 0px 0px;}
+
+.nsc-icon-line-width-1 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-1.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-2 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-2.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-3 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-3.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-4 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-4.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-5 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-5.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-6 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-6.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-7 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-7.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-8 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-8.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-9 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-9.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-10 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-10.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-15 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-15.svg) no-repeat 0px 0px;}
+.nsc-icon-line-width-20 {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-line-width-20.svg) no-repeat 0px 0px;}
+
+.nsc-icon-border-none {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-border-none.svg) no-repeat 0px 0px;}
+
+.nsc-icon-fill-none {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-fill-none.svg) no-repeat 0px 0px;}
+
+.nsc-icon-blur {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-blur.svg) no-repeat 0px 0px;}
+.nsc-icon-blur-all {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-blur-all.svg) no-repeat 0px 0px;}
+
+.nsc-icon-shadow {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-shadow.svg) no-repeat 0px 0px;}
+
+.nsc-icon-unlock {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-unlock.svg) no-repeat 0px 0px;}
+.nsc-icon-lock {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-lock.svg) no-repeat 0px 0px;}
+
+.nsc-icon-redo {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-redo.svg) no-repeat 0px 0px;}
+.nsc-icon-undo {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-undo.svg) no-repeat 0px 0px;}
+.nsc-icon-undo-all {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-undo-all.svg) no-repeat 0px 0px;}
+
+.nsc-icon-numbers {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-numbers.svg) no-repeat 0px 0px;}
+.nsc-icon-number {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-number.svg) no-repeat 0px 0px;}
+
+.ncs-icon-jpg-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-jpg-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-png-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-png-24.svg) no-repeat center; width:24px; height:24px;}
+
+.nsc-icon-entire-page-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-entire-page-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-browser-window-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-browser-window-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-selected-area-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-selected-area-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-fragment-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-fragment-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-visible-part-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-visible-part-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-blank-screen-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-blank-screen-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-delayed-screenshot-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-delayed-screenshot-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-selected-and-scroll-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-selected-and-scroll-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-record-video-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-record-video-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-android-version-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-android-version-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-nimbus-clipper-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-clipper-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-edit-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-selection-edit-24.svg) no-repeat center; width:24px; height:24px;}
+
+.nsc-icon-ic-devices-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-devices-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-ic-image_text-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-image_text-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-ic-image-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-image-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-ic-lock-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-lock-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-ic-organize-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-organize-24.svg) no-repeat center; width:24px; height:24px;}
+.nsc-icon-ic-share-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-share-24.svg) no-repeat center; width:24px; height:24px;}
+
+.nsc-icon-nimbus-16 {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-nimbus-16.svg) no-repeat center; width:16px !important; height:16px !important;}
+.nsc-icon-options-16 {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-options-16.svg) no-repeat center; width:16px !important; height:16px !important;}
+.nsc-icon-quit-16 {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-quit-16.svg) no-repeat center; width:16px !important; height:16px !important;}
+.ic-back-16 {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-back-16.svg) no-repeat center; width:16px !important; height:16px !important;}
+.ic-next-16 {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-next-16.svg) no-repeat center; width:16px !important; height:16px !important;}
+
+.ic-mic {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-mic.svg) no-repeat center; width:24px; height:24px;}
+.ic-sound {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-sound.svg) no-repeat center; width:24px; height:24px;}
+.ic-delayed-screenshot-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-delayed-screenshot-24.svg) no-repeat center; width:24px; height:24px;}
+.ic-mouse-click {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-mouse-click.svg) no-repeat -4px 0; background-size: 120%; width:24px; height:24px;}
+.ic-editor {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-editor.svg) no-repeat center; width:24px; height:24px;}
+
+.ic-cancel {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-cancel.svg) no-repeat center; width:16px !important; height:16px !important;}
+.nsc-icon-close-2 {background:url(chrome-extension://__MSG_@@extension_id__/images/symbols/ic-close-2.svg) no-repeat center; width:16px !important; height:16px !important;}
+
+.ic-slack {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-slack.svg) no-repeat center; width:24px; height:24px;}
+.ic-nimubs-dark {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-nimubs-dark.svg) no-repeat center; width:24px; height:24px;}
+
+.ic-nimbus-logo {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-nimbus-logo.svg) no-repeat center; width:40px; height:40px;}
+.ic-plus-color {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-plus-color.svg) no-repeat center; width:24px; height:24px;}
+.ic-slack-logo {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-slack-logo.svg) no-repeat center; width:40px; height:40px;}
+
+.ic-record-video-24 {background:url(chrome-extension://__MSG_@@extension_id__/images/new/ic-record-video-24.svg) no-repeat center; width:24px; height:24px;}
+
+.nsc-icon-screenshot {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-screenshot.svg) no-repeat center;}
+.nsc-icon-open {background:url(chrome-extension://__MSG_@@extension_id__/images/panel/ic-open.svg) no-repeat center;}
+
+.ic-gallery-16 {background:url(chrome-extension://__MSG_@@extension_id__/images/gallery/ic-gallery-16.svg) no-repeat center;}
+
+/*colorpicker*/
+.ic-color-custom {background:url(chrome-extension://__MSG_@@extension_id__/images/colorpicker/ic-color-custom.svg) no-repeat center;}
+.ic-color-add {background:url(chrome-extension://__MSG_@@extension_id__/images/colorpicker/ic-color-add.svg) no-repeat center;}
+.ic-color-remove {background:url(chrome-extension://__MSG_@@extension_id__/images/colorpicker/ic-color-remove.svg) no-repeat center;} 
+.ic-arrow-up-small {background:url(chrome-extension://__MSG_@@extension_id__/images/colorpicker/ic-arrow-up-small.svg) no-repeat center;} 
+.ic-color-select {background:url(chrome-extension://__MSG_@@extension_id__/images/colorpicker/ic-color-select.svg) no-repeat center;}
+
+.nsc-icon-loading{background:url(chrome-extension://__MSG_@@extension_id__/images/new/loading.svg) no-repeat center;}
+
+.nsc-icon {min-width:16px; min-height:16px; display:inline-block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

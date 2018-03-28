@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-cursor-tail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-cursor-tail">
+            <g>
+                <rect id="bounds" x="0" y="0" width="16" height="16"></rect>
+                <polygon id="Combined-Shape" fill="#5A5A5A" points="4.70588235 14.1176471 1.24344979e-14 1.98031746e-14 14.1176471 4.70588235 6 6"></polygon>
+                <path d="M5,7.5 C5,8.09375 9.65588229,8.61225662 8,10.4561905 C6.14455222,12.5223536 9.57322218,14.0889091 14.5937981,15.458157 L14.90625,15.5 C12.8674202,14.9439555 11.2403312,13.5758131 10.5,13 C10.0229755,12.6289809 10.0147686,11.7363464 10.1329418,11.5 C11.3121873,9.14150892 10.8136542,6.9201375 7.5,5.5 C6.42877142,5.2903162 5.76210475,5.2903162 5.5,5.5 C5.2065492,5.73476064 5.03988253,6.40142731 5,7.5 Z" id="Path-2" fill="#5A5A5A" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

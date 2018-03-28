@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-marker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.4999878,2.27765126e-05 C14.4469171,2.27765126e-05 15.3125742,0.53502628 15.7360538,1.38198249 C16.1595335,2.22893871 16.0681436,3.24246389 15.499986,4.00000456 L14.4999869,5 L10.9999901,1.49501597 L11.9999892,0.495020522 C12.4329479,0.171470424 12.9594942,-0.00228921751 13.4999878,2.27765126e-05 L13.4999878,2.27765126e-05 Z M7.10542736e-15,8.92817671 L7.10542736e-15,16 L6.87199403,16 L13.7236185,6.18279834 L10.4620628,2.79023309 L7.10542736e-15,8.92817671 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-243.000000, -74.000000)" id="ic-marker">
+            <g transform="translate(243.000000, 74.000000)">
+                <rect id="bounds" x="0" y="0" width="16" height="16"></rect>
+                <polygon id="Rectangle" fill="#FFFB56" fill-rule="evenodd" points="0.949486524 14.045681 15.9999856 11 12.9985741 15.9839997 2.14672703 15.9839997"></polygon>
+                <g id="pen_copy" transform="translate(8.000000, 8.000000) scale(-1, -1) translate(-8.000000, -8.000000) ">
+                    <use fill="#6D6C6D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

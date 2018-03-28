@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-number</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-563.000000, -460.000000)">
+            <g transform="translate(551.000000, 420.000000)">
+                <g transform="translate(12.000000, 40.000000)">
+                    <g>
+                        <rect x="0" y="0" width="16" height="16"></rect>
+                        <path d="M14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 C11.3137085,14 14,11.3137085 14,8 Z M0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 C3.581722,16 0,12.418278 0,8 Z" fill="#5A5A5A"></path>
+                        <path d="M9,12 L7.47282609,12 L7.47282609,6.24456522 C6.91485228,6.76630696 6.25725016,7.15217266 5.5,7.40217391 L5.5,6.01630435 C5.89855272,5.88586891 6.3315194,5.63858878 6.79891304,5.27445652 C7.26630668,4.91032427 7.58695565,4.48550967 7.76086957,4 L9,4 L9,12 Z" fill="#5A5A5A"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

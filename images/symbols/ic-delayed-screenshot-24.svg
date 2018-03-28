@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-delayed-screenshot-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-65.000000, -260.000000)">
+            <g transform="translate(41.000000, 69.000000)">
+                <g transform="translate(12.000000, 185.000000)">
+                    <g transform="translate(12.000000, 6.000000)">
+                        <g>
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M3,13 C3,8.02943725 7.02943725,4 12,4 C16.9705627,4 21,8.02943725 21,13 C21,17.9705627 16.9705627,22 12,22 C7.02943725,22 3,17.9705627 3,13 Z M10,1 L14,1 L14,3 L10,3 L10,1 Z M18,3 L21,3 L21,6 L18,3 Z" fill="#5A5A5A"></path>
+                            <path d="M20,13 C20,8.581722 16.418278,5 12,5 C7.581722,5 4,8.581722 4,13 C4,17.418278 7.581722,21 12,21 C16.418278,21 20,17.418278 20,13 Z" fill="#FFFFFF"></path>
+                            <path d="M12,7 C8.6862915,7 6,9.6862915 6,13 L12,13 L12,7 L12,7 Z" fill="#D8D8D8"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

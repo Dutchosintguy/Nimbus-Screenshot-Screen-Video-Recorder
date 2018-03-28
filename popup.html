@@ -1,0 +1,492 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Nimbus ScreenShot</title>
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/new-style.css">
+    <link rel="stylesheet" href="css/fix-style.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: auto;
+        }
+
+        body {
+            width: 280px;
+        }
+
+        body.active-popup {
+            width: 500px;
+        }
+
+        body.resize {
+            width: auto;
+            min-width: 280px;
+        }
+
+        body.active-popup .nsc-popup {
+            display: block !important;
+        }
+
+        .nsc-popup {
+            width: auto;
+            position: relative;
+            left: 0;
+            top: 0;
+            transform: translate(0, 0);
+            border: none;
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+<div class="nsc-capture-options" id="capture_options">
+    <div class="nsc-capture-title" data-i18n="popupTitle">CAPTURE OPTIONS</div>
+    <div class="nsc-capture-buttons">
+        <button class="nsc-button nsc-button-main" type="button" name="capture-visible" data-close-window="true">
+            <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                <i class="nsc-icon nsc-icon-visible-part-24"></i>
+                <span data-i18n="btnVisiblePage">Visible part of page</span>
+            </span>
+        </button>
+        <button class="nsc-button nsc-button-main" type="button" name="capture-fragment" data-close-window="true">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-fragment-24"></i>
+                    <span data-i18n="btnCaptureFragment">Capture Fragment</span>
+                </span>
+        </button>
+        <button class="nsc-button nsc-button-main" type="button" name="capture-area" data-close-window="true">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-selected-area-24"></i>
+                    <span data-i18n="btnSelectedArea">Selected area</span>
+                </span>
+        </button>
+        <button class="nsc-button nsc-button-main" type="button" name="capture-scroll" data-close-window="true">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-selected-and-scroll-24"></i>
+                    <span data-i18n="btnSelectedScroll">Selected &amp; Scroll</span>
+                </span>
+        </button>
+        <button class="nsc-button nsc-button-main" type="button" name="capture-entire" data-close-window="true">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-entire-page-24"></i>
+                    <span data-i18n="btnEntirePage">Entire page</span>
+                </span>
+        </button>
+        <button class="nsc-button nsc-button-main" type="button" name="capture-delayed" data-close-window="true">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-delayed-screenshot-24"></i>
+                    <span data-i18n="btnDelayedScreen">Delayed screenshot</span>
+                </span>
+        </button>
+        <button class="nsc-button nsc-button-main" type="button" name="capture-window" data-close-window="true">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-browser-window-24"></i>
+                    <span data-i18n="btnBrowserWindow">Browser window</span>
+                </span>
+        </button>
+        <button class="nsc-button nsc-button-main" type="button" name="capture-blank" data-close-window="true">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-blank-screen-24"></i>
+                    <span data-i18n="btnBlankScreen">Blank screen</span>
+                </span>
+        </button>
+        <button class="nsc-button nsc-button-main" type="button" name="capture-video">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-record-video-24"></i>
+                    <span data-i18n="btnCaptureVideo">Record video</span>
+                </span>
+        </button>
+        <button class="nsc-button nsc-button-main" type="button" name="capture-android" data-close-window="true">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-nimbus-clipper-24"></i>
+                    <!--<span data-i18n="btnAndroidVersion">Android version</span>-->
+                    <span>Nimbus Web Clipper</span>
+                </span>
+        </button>
+    </div>
+    <div class="nsc-capture-title secondary"><span data-i18n="popupAfterCapture">After Capture</span>:</div>
+    <div class="nsc-capture-select">
+        <select name="edit-before">
+            <option value="edit" selected data-i18n="btnEnableEdit">enable edit</option>
+            <option value="done" data-i18n="btnEnableDownload">save as</option>
+            <option value="save" data-i18n="btnEnableSave">download</option>
+            <!--<option value="copy" data-i18n="btnEnableCopy">copy to clipboard</option>-->
+        </select>
+    </div>
+    <div class="nsc-capture-actions" flex="" layout="row" layout-align="space-between center">
+        <div class="nsc-capture-my" flex="none">
+            <button class="nsc-button nsc-button-icon-cleared" type="button" name="open-nimbus-client" data-close-window="true">
+                <span class="nsc-button-layout" flex="" layout="row" layout-align="center center">
+                    <i class="nsc-icon nsc-icon-nimbus-16"></i>
+                    <span data-i18n="popupMyNotes">My notes</span>
+                </span>
+            </button>
+        </div>
+        <div class="nsc-capture-actions-buttons" flex="none" layout="row">
+            <button class="nsc-button nsc-button-icon-cleared" type="button" style="display: none">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon ic-gallery-16"></i>
+                </span>
+            </button>
+            <button class="nsc-button nsc-button-icon-cleared" data-i18n="btnOptions" data-i18n-attr="title" type="button" name="open-plugin-option" data-close-window="true">
+                <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                    <i class="nsc-icon nsc-icon-options-16"></i>
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="nsc-capture-options" id="record_options" style="display: none">
+
+    <!-- back -->
+    <div class="nsc-capture-back">
+        <button class="nsc-button nsc-button-icon-cleared" type="button" name="back-to-capture">
+            <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                <i class="nsc-icon ic-back-16"></i>
+                <span data-i18n="popupBtnBack">back</span>
+            </span>
+        </button>
+    </div>
+    <!-- /back -->
+
+    <div class="nsc-capture-title" data-i18n="popupVideoTitle">OPTIONS</div>
+
+    <!-- swtitchers -->
+    <div class="nsc-capture-switchers">
+
+        <div class="nsc-capture-switcher" flex="" layout="row" layout-align="start center">
+            <div class="nsc-capture-switcher-icon" flex="none">
+                <i class="nsc-icon ic-mic"></i>
+            </div>
+            <div class="nsc-capture-switcher-content nsc-noselect" flex="">
+                <div class="nsc-capture-switcher-title" data-i18n="popupLabelRecordMic">Record voice</div>
+            </div>
+            <div class="nsc-capture-switcher-toggle" flex="none">
+                <label class="nsc-toggle">
+                    <input type="checkbox" name="record-mic">
+                    <span class="toggle-shape">
+                        <i class="toggle-on nsc-animated"></i>
+                        <i class="toggle-off nsc-animated"></i>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="nsc-capture-switcher" flex="" layout="row" layout-align="start center">
+            <div class="nsc-capture-switcher-icon" flex="none">
+                <i class="nsc-icon ic-sound"></i>
+            </div>
+            <div class="nsc-capture-switcher-content nsc-noselect" flex="">
+                <div class="nsc-capture-switcher-title" data-i18n="popupLabelRecordTab">Record tab sound</div>
+            </div>
+            <div class="nsc-capture-switcher-toggle" flex="none">
+                <label class="nsc-toggle">
+                    <input type="checkbox" name="record-tab-sound">
+                    <span class="toggle-shape">
+                        <i class="toggle-on nsc-animated"></i>
+                        <i class="toggle-off nsc-animated"></i>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="nsc-capture-switcher" flex="" layout="row" layout-align="start center" style="display: none">
+            <div class="nsc-capture-switcher-icon" flex="none">
+                <i class="nsc-icon ic-mouse-click"></i>
+            </div>
+            <div class="nsc-capture-switcher-content nsc-noselect" flex="">
+                <div class="nsc-capture-switcher-title" data-i18n="popupLabelCursorAnimate">Show mouse clicks</div>
+            </div>
+            <div class="nsc-capture-switcher-toggle" flex="none">
+                <label class="nsc-toggle">
+                    <input type="checkbox" name="record-cursor-animate">
+                    <span class="toggle-shape">
+                        <i class="toggle-on nsc-animated"></i>
+                        <i class="toggle-off nsc-animated"></i>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="nsc-capture-switcher" flex="" layout="row" layout-align="start center">
+            <div class="nsc-capture-switcher-icon" flex="none"><i class="nsc-icon ic-editor"></i></div>
+            <div class="nsc-capture-switcher-content nsc-noselect" flex="">
+                <div class="nsc-capture-switcher-title" data-i18n="popupLabelShowDrawingTools">Show drawing tools</div>
+            </div>
+            <div class="nsc-capture-switcher-toggle" flex="none">
+                <label class="nsc-toggle">
+                    <input type="checkbox" name="show-drawing-tools">
+                    <span class="toggle-shape">
+                        <i class="toggle-on nsc-animated"></i>
+                        <i class="toggle-off nsc-animated"></i>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+    </div>
+    <!-- /swtitchers -->
+
+    <!-- countdown -->
+    <div class="nsc-capture-countdown" flex="" layout="row" layout-align="start center">
+        <div class="nsc-capture-countdown-icon">
+            <i class="nsc-icon ic-delayed-screenshot-24"></i>
+        </div>
+        <div class="nsc-capture-countdown-text" data-i18n="popupLabelCountdown">Countdown</div>
+        <div class="nsc-capture-countdown-field">
+            <input type="number" value="3" min="0" max="99" id="video_countdown">
+        </div>
+        <div class="nsc-capture-countdown-text" data-i18n="popupSec">sec</div>
+    </div>
+    <!-- /countdown -->
+
+    <div class="nsc-capture-hr"></div>
+
+    <!-- goto -->
+    <div class="nsc-capture-goto">
+        <button class="nsc-button nsc-button-icon-cleared nsc-button-block" type="button" name="video-setting">
+          <span class="nsc-button-layout" flex="" layout="row" layout-align="start center">
+            <i class="nsc-icon nsc-icon-record-video-24" flex="none"></i>
+            <span class="nsc-capture-goto-text" flex="" data-i18n="popupLabelVideoSetting">Video settings</span>
+            <i class="nsc-icon ic-next-16" flex="none"></i>
+          </span>
+        </button>
+    </div>
+    <!-- /goto -->
+
+    <div class="nsc-capture-hr"></div>
+
+    <div class="nsc-capture-start-record">
+        <div class="nsc-capture-title secondary"><span data-i18n="popupRecordTypeTitle">What do you want to record</span>:</div>
+
+        <!-- flags -->
+        <div class="nsc-capture-flags nsc-capture-flags-tabs" flex="none" layout="row" layout-align="center center" layout-wrap="">
+            <div class="nsc-capture-flag boxed" flex="none" layout="row" layout-align="start center">
+                <label class="nsc-capture-flag-label nsc-noselect">
+                    <input type="radio" name="record-type" value="tab">
+                    <span class="nsc-capture-flag-boxed-shape" flex layout="row" layout-align="start center">
+                        <i class="nsc-icon nsc-icon-browser-window-24" flex="none"></i>
+                        <span class="nsc-capture-flag-text" data-i18n="popupBtnTabRecord">Tab</span>
+                    </span>
+                </label>
+            </div>
+            <div class="nsc-capture-flag boxed" flex="none" layout="row" layout-align="start center">
+                <label class="nsc-capture-flag-label nsc-noselect">
+                    <input type="radio" name="record-type" value="desktop">
+                    <span class="nsc-capture-flag-boxed-shape" flex layout="row" layout-align="start center">
+                        <i class="nsc-icon nsc-icon-entire-page-24" flex="none"></i>
+                        <span class="nsc-capture-flag-text" data-i18n="popupBtnDesktopRecord">Desktop</span>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <!-- /flags -->
+    </div>
+
+    <button class="button large block primary" type="button" name="record-start" data-close-window="true">
+        <span class="button-layout" flex="" layout="row" layout-align="center center">
+            <span data-i18n="popupBtnStartRecord">Start record</span>
+        </span>
+    </button>
+</div>
+
+<div class="nsc-capture-options nsc-capture-options-recording" id="record_status" style="display: none">
+    <div class="nsc-capture-title" data-i18n="popupRecordTitle">RECORDING SCREEN</div>
+    <div class="nsc-capture-timer" id="record_time">00:02</div>
+    <div class="nsc-capture-video-buttons" flex="" layout="row" layout-wrap="">
+        <button class="nsc-button" flex="noshrink" type="button" name="record-pause">
+            <span class="nsc-button-layout" flex="" layout="row" layout-align="center center">PAUSE</span>
+        </button>
+        <button class="nsc-button" type="button" name="record-stop" data-close-window="true">
+            <span class="nsc-button-layout" flex="" layout="row" layout-align="center center" data-i18n="popupBtnStopRecord">STOP</span>
+        </button>
+    </div>
+</div>
+
+<div class="nsc-capture-options" id="record_setting" style="display: none">
+
+    <!-- back -->
+    <div class="nsc-capture-back">
+        <button class="nsc-button nsc-button-icon-cleared" type="button" name="back-to-capture-setting">
+            <span class="nsc-button-layout nsc-flex nsc-layout-row">
+                <i class="nsc-icon ic-back-16"></i>
+                <span data-i18n="popupBtnBack">back</span>
+            </span>
+        </button>
+    </div>
+    <!-- /back -->
+
+    <div class="nsc-capture-title" data-i18n="popupVideoQualityTitle">VIDEO QUALITY</div>
+
+    <div class="nsc-capture-flags" style="padding-top: 0">
+        <div class="nsc-capture-flag" flex="" layout="row" layout-align="start center">
+            <label class="nsc-capture-flag-label nsc-noselect" flex="" layout="row" layout-align="start center">
+                <input type="radio" name="video-size" value="auto">
+                <span class="nsc-capture-flag-text"><span data-i18n="popupSizeAutoLabel">Auto</span> <small data-i18n="popupSizeAutoDescription">(Your current)</small></span>
+            </label>
+        </div>
+        <div class="nsc-capture-flag" flex="" layout="row" layout-align="start center">
+            <label class="nsc-capture-flag-label nsc-noselect" flex="" layout="row" layout-align="start center">
+                <input type="radio" name="video-size" value="4k">
+                <span class="nsc-capture-flag-text">4K <small>(3840 × 2160)</small></span>
+            </label>
+        </div>
+        <div class="nsc-capture-flag" flex="" layout="row" layout-align="start center">
+            <label class="nsc-capture-flag-label nsc-noselect" flex="" layout="row" layout-align="start center">
+                <input type="radio" name="video-size" value="full-hd">
+                <span class="nsc-capture-flag-text">FullHD <small>(1920 × 1080)</small></span>
+            </label>
+        </div>
+        <div class="nsc-capture-flag" flex="" layout="row" layout-align="start center">
+            <label class="nsc-capture-flag-label nsc-noselect" flex="" layout="row" layout-align="start center">
+                <input type="radio" name="video-size" value="hd">
+                <span class="nsc-capture-flag-text">HD <small>(1280 × 720)</small></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="nsc-capture-hr"></div>
+
+    <!--<div class="nsc-capture-param" flex="" layout="row" layout-align="start center">
+        <div class="nsc-capture-param-text" flex="">Микрофон</div>
+        <div class="nsc-capture-param-field">
+            <select name="mic-change" style="max-width: 120px"></select>
+        </div>
+    </div>-->
+
+    <div class="nsc-capture-param" flex="" layout="row" layout-align="start center">
+        <div class="nsc-capture-param-text" flex="" data-i18n="popupBitrateAudioLabel">Bitrate audio</div>
+        <div class="nsc-capture-param-field">
+            <select name="audio-bitrate">
+                <option value="32000">32 kbit/s</option>
+                <option value="96000">96 kbit/s</option>
+                <option value="128000">128 kbit/s</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="nsc-capture-param" flex="" layout="row" layout-align="start center">
+        <div class="nsc-capture-param-text" flex="" data-i18n="popupBitrateVideoLabel">Bitrate video</div>
+        <div class="nsc-capture-param-field">
+            <select name="video-bitrate">
+                <option value="750000">750 kbit/s</option>
+                <option value="1000000">1 Mbit/s</option>
+                <option value="2500000">2,5 Mbit/s</option>
+                <option value="4500000">4,5 Mbit/s</option>
+                <option value="19000000">19 Mbit/s</option>
+                <option value="25000000">25 Mbit/s</option>
+                <option value="40000000">40 Mbit/s</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="nsc-capture-param" flex="" layout="row" layout-align="start center">
+        <div class="nsc-capture-param-text" flex="" data-i18n="popupFrameRateLabel">Frame rate</div>
+        <div class="nsc-capture-param-field">
+            <select name="video-fps">
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="24">24</option>
+                <option value="26">26</option>
+                <option value="30">30</option>
+                <option value="45">45</option>
+                <option value="60">60</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="nsc-capture-param" flex="" layout="row" layout-align="start center">
+        <div class="nsc-capture-param-text" flex="" data-i18n="popupAutoDeleteDrawingLabel">Auto Delete Drawing</div>
+        <div class="nsc-capture-param-field">
+            <select name="delete-drawing">
+                <option value="3">3 sec</option>
+                <option value="6">6 sec</option>
+                <option value="10">10 sec</option>
+                <option value="30">30 sec</option>
+                <option value="0">Never</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- flags -->
+    <div class="nsc-capture-flags">
+        <div class="nsc-capture-flag" flex="" layout="row" layout-align="start center">
+            <label class="nsc-capture-flag-label nsc-noselect" flex="" layout="row" layout-align="start center">
+                <input type="checkbox" name="video-re-encoding">
+                <span class="nsc-capture-flag-text" data-i18n="popupVideoReEncoding">Enable video re-encoding</span>
+            </label>
+            <span class="nsc-icon nsc-icon-ask" data-i18n="popupVideoReEncodingTitle" data-i18n-attr="title"></span>
+        </div>
+
+        <div class="nsc-capture-flag" flex="" layout="row" layout-align="start center" style="display: none">
+            <label class="nsc-capture-flag-label nsc-noselect" flex="" layout="row" layout-align="start center">
+                <input type="checkbox" name="">
+                <span class="nsc-capture-flag-text">Show recording window</span>
+            </label>
+            <span class="nsc-icon nsc-icon-ask"></span>
+        </div>
+    </div>
+    <!-- /flags -->
+
+    <div class="nsc-capture-hr"></div>
+
+    <button class="button block" type="button" name="reset-video-setting" style="margin-top: 10px">
+        <span class="button-layout" flex="" layout="row" layout-align="center center">
+            <span data-i18n="popupBtnResetVideoSetting">Default settings</span>
+        </span>
+    </button>
+
+</div>
+
+<div class="nsc-popup" id="nsc_popup_first_record">
+    <div class="nsc-popup-record-logo" flex="" layout="row" layout-align="center">
+        <i class="nsc-icon ic-record-video-24"></i>
+    </div>
+    <div class="nsc-popup-content nsc-popup-content-single" flex="" layout="row" layout-align="center center">
+        <div class="nsc-popup-actions" flex="none">
+            <div class="nsc-popup-actions-title"><strong data-i18n="popupWelcomeVideo">Добро пожаловать в запись видео</strong></div>
+            <div class="nsc-popup-actions-text" data-i18n="popupAccessMic">Для начала: вы должны разрешить доступ к микрофону</div>
+            <div class="nsc-popup-record-content">
+                <div class="nsc-popup-record-actions">
+                    <div class="nsc-popup-record-action" flex="" layout="row" layout-align="start center">
+                        <div class="nsc-popup-record-action-count" flex="none">1.</div>
+                        <div class="nsc-popup-record-action-button" flex="">
+                            <button class="button primary large block" type="button" name="open-mic" data-close-window="true">
+                                <span class="button-layout" flex="" layout="row" layout-align="center center" data-i18n="btnAccessMic">ДАТЬ ДОСТУП К МИКРОФОНУ</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="nsc-popup-record-action" flex="" layout="row" layout-align="start center">
+                        <div class="nsc-popup-record-action-count" flex="none">2.</div>
+                        <div class="nsc-popup-record-action-button" flex="">
+                            <button class="button primary large block" type="button" name="open-video-record">
+                                <span class="button-layout" flex="" layout="row" layout-align="center center" data-i18n="btnReadyVideo">Я готов записывать видео</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nsc-popup-actions-text" data-i18n="popupReadManual">Также, вы можете прочитать инструкцию по работе с приложением:</div>
+                <div class="nsc-popup-actions-buttons">
+                    <a href="https://everhelper.desk.com/customer/en/portal/articles/2376166-%D0%9A%D0%B0%D0%BA-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8B%D0%B2%D0%B0%D1%82%D1%8C-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE-%D0%B2-google-chrome-">
+                        <button class="button large block" type="button" name="open-help">
+                            <span class="button-layout" flex="" layout="row" layout-align="center center" data-i18n="btnManual">инструкция</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/popup.js"></script>
+
+</body>
+</html>

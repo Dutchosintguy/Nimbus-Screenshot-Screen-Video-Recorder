@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-back-16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-591.000000, -101.000000)">
+            <g transform="translate(585.000000, 77.000000)">
+                <g transform="translate(6.000000, 24.000000)">
+                    <g>
+                        <rect x="0" y="0" width="16" height="16"></rect>
+                        <path d="M4,8 C4,7.74407768 4.09763107,7.48815536 4.29289322,7.29289322 L9.29289322,2.29289322 C9.68341751,1.90236893 10.3165825,1.90236893 10.7071068,2.29289322 C11.0976311,2.68341751 11.0976311,3.31658249 10.7071068,3.70710678 L6.41421356,8 L10.7071068,12.2928932 C11.0976311,12.6834175 11.0976311,13.3165825 10.7071068,13.7071068 C10.3165825,14.0976311 9.68341751,14.0976311 9.29289322,13.7071068 L4.29289322,8.70710678 C4.09763107,8.51184464 4,8.25592232 4,8 Z" fill="#5A5A5A"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

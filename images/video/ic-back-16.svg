@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-back-16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-panels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-edit-panel" transform="translate(-64.000000, -451.000000)">
+            <g id="tab" transform="translate(58.000000, 427.000000)">
+                <g id="ic-back-16" transform="translate(6.000000, 24.000000)">
+                    <g>
+                        <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                        <path d="M6.41421356,8 L10.7071068,3.70710678 C11.0976311,3.31658249 11.0976311,2.68341751 10.7071068,2.29289322 C10.3165825,1.90236893 9.68341751,1.90236893 9.29289322,2.29289322 L4.29289322,7.29289322 C4.09763107,7.48815536 4,7.74407768 4,8 C4,8.25592232 4.09763107,8.51184464 4.29289322,8.70710678 L9.29289322,13.7071068 C9.68341751,14.0976311 10.3165825,14.0976311 10.7071068,13.7071068 C11.0976311,13.3165825 11.0976311,12.6834175 10.7071068,12.2928932 L6.41421356,8 Z" id="Combined-Shape" fill="#5A5A5A" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

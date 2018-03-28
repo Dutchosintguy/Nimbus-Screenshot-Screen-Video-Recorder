@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>radio-on</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-panels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-edit-panel" transform="translate(-75.000000, -802.000000)">
+            <g id="tab" transform="translate(58.000000, 427.000000)">
+                <g id="radio-on" transform="translate(17.000000, 375.000000)">
+                    <g>
+                        <path d="M14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 C11.3137085,14 14,11.3137085 14,8 Z M1,8 C1,4.13400675 4.13400675,1 8,1 C11.8659932,1 15,4.13400675 15,8 C15,11.8659932 11.8659932,15 8,15 C4.13400675,15 1,11.8659932 1,8 Z" id="Oval-1" fill="#D1D1D1" fill-rule="nonzero"></path>
+                        <circle id="Oval-1" fill="#1AABC6" cx="8" cy="8" r="5"></circle>
+                        <rect id="bounds" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

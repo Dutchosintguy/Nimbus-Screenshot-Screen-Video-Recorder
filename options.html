@@ -1,0 +1,662 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Options - Nimbus Screenshot</title>
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/new-style.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/options.js"></script>
+</head>
+<body>
+
+<!-- page -->
+<div class="nsc-background">
+    <div class="nsc-settings-page">
+        <div class="nsc-settings-page-layout nsc-flex nsc-layout-column">
+
+            <!-- wrapper -->
+            <div class="nsc-wrapper">
+
+                <div class="nsc-settings-header" flex layout="row" layout-align="start center">
+                    <div class="nsc-settings-header-title" flex i18n-content="optionsTitle">Screenshot Settings</div>
+                    <div class="nsc-settings-header-actions" flex="none" layout="row">
+                        <span><a href="https://everhelper.desk.com/customer/en/portal/articles/1180411" target="_blank" i18n-content="nimbusHelp" id="nimbus_help_link">Help</a></span>
+                        <span><a href="https://chrome.google.com/webstore/detail/nimbus-screenshot-and-scr/bpconcjcammlapcogcnnelfmaeghhagj/reviews" target="_blank" i18n-content="nimbusRateUs">Rate Us</a></span>
+                        <span><a href="https://everhelper.desk.com/customer/portal/emails/new" target="_blank" i18n-content="nimbusSupport">Support</a></span>
+                    </div>
+                </div>
+
+                <!-- settings wrapper -->
+                <div class="nsc-settings-wrapper">
+
+                    <!-- block -->
+                    <div class="nsc-settings-block">
+                        <div class="nsc-settings-block-title" i18n-content="optionsSettingImage">Image settings</div>
+
+                        <!-- format -->
+                        <div class="nsc-settings-format" flex layout="row" layout-align="start start">
+                            <div class="nsc-setting-format-title" flex="none" i18n-content="optionsLabelImageFormat">Image format</div>
+                            <div class="nsc-settings-format-blocks" flex>
+
+                                <div class="nsc-settings-format-block" flex layout="row">
+                                    <label class="nsc-setting-format-radio" flex="none" layout="row" layout-align="start center">
+                                        <input type="radio" name="image-format" value="jpeg" checked>
+                                        <span class="nsc-icon ncs-icon-jpg-24"></span>
+                                    </label>
+                                    <div class="nsc-setting-quality" flex layout="row" layout-align="start center">
+                                        <div class="nsc-setting-quality-title" flex="none" i18n-content="optionsLabelImageQuality">Quality</div>
+                                        <div class="nsc-settings-quality-range" flex>
+                                            <input class="range" type="range" min="10" max="100" step="1" value="90" id="image-quality" style="width: 100%">
+                                        </div>
+                                        <div class="nsc-settings-quality-value" flex="none" id="image-quality-value">100%</div>
+                                    </div>
+                                </div>
+
+                                <div class="nsc-settings-format-block" flex layout="row">
+                                    <label class="nsc-setting-format-radio" flex="none" layout="row" layout-align="start center">
+                                        <input type="radio" name="image-format" value="png">
+                                        <span class="nsc-icon nsc-icon-png-24"></span>
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- /format -->
+
+                    </div>
+                    <!-- /block -->
+
+                    <!-- block -->
+                    <div class="nsc-settings-block">
+                        <div class="nsc-settings-block-title" i18n-content="optionsSettingsSave">Save Settings</div>
+
+                        <div class="nsc-settings-flag" flex layout="row" layout-align="start center" id="enable_save_as_option">
+                            <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                <input type="checkbox" name="enable-save-as" value="true" checked id="enable_save_as">
+                                <span class="nsc-settings-flag-text" i18n-content="optionsLabelSaveAs">Enable “Save As” dialog</span>
+                            </label>
+                        </div>
+                        <div class="nsc-settings-save-as">
+                            <span i18n-content="optionsLabelFilenameTemplate">Filename Template</span>
+                            <input type="text" id="filename_template" value="screenshot-{domain}-{date}-{time}">
+                            <div class="nsc-settings-save-actions">
+                                <span i18n-content="optionsLabelCanUse">You can use :</span>
+                                <button type="button" name="filename-template" value="domain">{domain}</button>
+                                ,
+                                <button type="button" name="filename-template" value="url">{url}</button>
+                                ,
+                                <button type="button" name="filename-template" value="title">{title}</button>
+                                ,
+                                <button type="button" name="filename-template" value="date">{date}</button>
+                                ,
+                                <button type="button" name="filename-template" value="time">{time}</button>
+                                ,
+                                <button type="button" name="filename-template" value="timestamp">{timestamp}</button>
+                                ,
+                                <button type="button" name="filename-template" value="ms">{ms}</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /block -->
+
+                    <!-- block -->
+                    <div class="nsc-settings-block">
+                        <div class="nsc-settings-block-title" i18n-content="optionsCaptureSettings">Capture settings</div>
+
+                        <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                            <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                <span class="nsc-settings-flag-text" i18n-content="optionsLabelDelayedScreenshotTime">Delayed screenshot time (secs)</span>
+                                <input type="number" max="99" min="0" value="3" id="delayed_screenshot_time">
+                            </label>
+                        </div>
+                        <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                            <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                <input type="checkbox" name="" value="" id="hide_fixed_elements">
+                                <span class="nsc-settings-flag-text" i18n-content="optionsLabelHideFixedElements">Hide fixed elements</span>
+                            </label>
+                        </div>
+                        <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                            <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                <input type="checkbox" name="" value="" id="show_info_print">
+                                <span class="nsc-settings-flag-text" i18n-content="optionsLabelShowInfoPrint">Show info print</span>
+                            </label>
+                        </div>
+                        <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                            <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                <input type="checkbox" name="" value="" id="save_crop_position">
+                                <span class="nsc-settings-flag-text" i18n-content="optionsLabelSaveCropPosition">Save crop position</span>
+                            </label>
+                        </div>
+                        <div class="nsc-settings-flag" flex layout="row" layout-align="start center" style="display: none">
+                            <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                <input type="checkbox" name="" value="">
+                                <span class="nsc-settings-flag-text">Enable Simple Mode</span>
+                            </label>
+                            <span class="nsc-icon nsc-icon-ask" title="??????????????????"></span>
+                        </div>
+                        <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                            <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                <input type="checkbox" name="show_content_menu" value="" id="show_content_menu">
+                                <span class="nsc-settings-flag-text" i18n-content="optionsLabelShowContentMenu">Show in context menu</span>
+                            </label>
+                        </div>
+                        <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                            <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                <input type="checkbox" name="show_content_menu" value="" id="keep_original_resolution">
+                                <span class="nsc-settings-flag-text" i18n-content="optionsLabelKeepOriginalResolution">Keep original resolution (for Retinga)</span>
+                            </label>
+                        </div>
+                        <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                            <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                <input type="checkbox" name="" value="" id="quick_capture_enable">
+                                <span class="nsc-settings-flag-text" i18n-content="optionsLabelQuickCaptureEnable">Enable quick capture (do not show main menu)</span>
+                            </label>
+                        </div>
+
+                        <div class="nsc-settings-choose nsc-settings-choose-enabled" id="quick_capture_choose">
+                            <div class="nsc-settings-choose-fill"></div>
+                            <span i18n-content="optionsLabelAfterClicking">After clicking icon</span>
+                            <i class="nsc-icon nsc-icon-nimbus-logo"></i>
+                            <span i18n-content="optionsLabelWantCapture">I want to capture</span>
+                            <select id="capture_type">
+                                <option value="visible" i18n-content="btnVisiblePage">Visible part of page</option>
+                                <option value="area" i18n-content="btnSelectedArea">Selected area</option>
+                                <option value="fragment" i18n-content="btnCaptureFragment">Capture Fragments</option>
+                                <option value="scroll" i18n-content="btnSelectedScroll">Selected &amp; Scroll</option>
+                                <option value="entire" i18n-content="btnEntirePage">Entire page</option>
+                                <option value="window" i18n-content="btnBrowserWindow">Browser window</option>
+                                <option value="blank" i18n-content="btnBlankScreen">Blank screen</option>
+                            </select>
+                            <br>
+                            <span i18n-content="optionsLabelAndThen">and then</span>
+                            <select id="capture_enable_edit">
+                                <option value="edit" i18n-content="btnEnableEdit">Edit screeshot</option>
+                                <option value="save" i18n-content="btnEnableSave">Save screeshot</option>
+                                <option value="done" i18n-content="btnEnableDownload">Download screeshot</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- /block -->
+
+                    <!-- block -->
+                    <div class="nsc-settings-block">
+                        <div class="nsc-settings-block-title" i18n-content="optionsMainMenu">Main menu</div>
+
+                        <div class="nsc-settings-menu-group" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="entire" checked>
+                                    <span class="nsc-icon nsc-icon-entire-page-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnEntirePage">Entire page</span>
+                                </label>
+                            </div>
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="window" checked>
+                                    <span class="nsc-icon nsc-icon-browser-window-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnBrowserWindow">Browser window</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-menu-group" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="area" checked>
+                                    <span class="nsc-icon nsc-icon-selected-area-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnSelectedArea">Selected area</span>
+                                </label>
+                            </div>
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="fragment" checked>
+                                    <span class="nsc-icon nsc-icon-fragment-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnCaptureFragment">Capture Fragments</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-menu-group" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="visible" checked>
+                                    <span class="nsc-icon nsc-icon-visible-part-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnVisiblePage">Visible part of page</span>
+                                </label>
+                            </div>
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="blank" checked>
+                                    <span class="nsc-icon nsc-icon-blank-screen-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnBlankScreen">Blank screen</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-menu-group" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="delayed" checked>
+                                    <span class="nsc-icon nsc-icon-delayed-screenshot-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnDelayedScreen">Delayed screenshot</span>
+                                </label>
+                            </div>
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="scroll" checked>
+                                    <span class="nsc-icon nsc-icon-selected-and-scroll-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnSelectedScroll">Selected &amp; Scroll</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-menu-group" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="video" checked>
+                                    <span class="nsc-icon nsc-icon-record-video-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnCaptureVideo">Capture video</span>
+                                </label>
+                            </div>
+                            <div class="nsc-settings-flag" flex layout="row" layout-align="start center">
+                                <label class="nsc-settings-flag-label nsc-noselect" flex="none" layout="row" layout-align="start center">
+                                    <input type="checkbox" name="main-menu-item" value="android" checked>
+                                    <span class="nsc-icon nsc-icon-android-version-24"></span>
+                                    <span class="nsc-settings-flag-text" i18n-content="btnAndroidVersion">Android version</span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /block -->
+
+                    <!-- block -->
+                    <div class="nsc-settings-block">
+                        <div class="nsc-settings-block-title" i18n-content="optionsShortcutSettings">Shortcut Settings</div>
+
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="btnVisiblePage">Visible part of page</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="start center">
+                                    <span>Ctrl+Shift+</span>
+                                    <select id="shortcut_visible">
+                                        <option value="64" hidden="hidden">@</option>
+                                        <option value="49">1</option>
+                                        <option value="50">2</option>
+                                        <option value="51">3</option>
+                                        <option value="52">4</option>
+                                        <option value="53">5</option>
+                                        <option value="54">6</option>
+                                        <option value="55">7</option>
+                                        <option value="56">8</option>
+                                        <option value="57">9</option>
+                                        <option value="65">A</option>
+                                        <option value="66">B</option>
+                                        <option value="67">C</option>
+                                        <option value="68">D</option>
+                                        <option value="69">E</option>
+                                        <option value="70">F</option>
+                                        <option value="71">G</option>
+                                        <option value="72">H</option>
+                                        <option value="73">I</option>
+                                        <option value="74">J</option>
+                                        <option value="75">K</option>
+                                        <option value="76">L</option>
+                                        <option value="77">M</option>
+                                        <option value="78">N</option>
+                                        <option value="79">O</option>
+                                        <option value="80">P</option>
+                                        <option value="81">Q</option>
+                                        <option value="82">R</option>
+                                        <option value="83">S</option>
+                                        <option value="84">T</option>
+                                        <option value="85">U</option>
+                                        <option value="86">V</option>
+                                        <option value="87">W</option>
+                                        <option value="88">X</option>
+                                        <option value="89">Y</option>
+                                        <option value="90">Z</option>
+                                        <option value="0" i18n-content="disable"></option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="btnCaptureFragment">Capture Fragment</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="start center">
+                                    <span>Ctrl+Shift+</span>
+                                    <select id="shortcut_fragment">
+                                        <option value="64" hidden="hidden">@</option>
+                                        <option value="49">1</option>
+                                        <option value="50">2</option>
+                                        <option value="51">3</option>
+                                        <option value="52">4</option>
+                                        <option value="53">5</option>
+                                        <option value="54">6</option>
+                                        <option value="55">7</option>
+                                        <option value="56">8</option>
+                                        <option value="57">9</option>
+                                        <option value="65">A</option>
+                                        <option value="66">B</option>
+                                        <option value="67">C</option>
+                                        <option value="68">D</option>
+                                        <option value="69">E</option>
+                                        <option value="70">F</option>
+                                        <option value="71">G</option>
+                                        <option value="72">H</option>
+                                        <option value="73">I</option>
+                                        <option value="74">J</option>
+                                        <option value="75">K</option>
+                                        <option value="76">L</option>
+                                        <option value="77">M</option>
+                                        <option value="78">N</option>
+                                        <option value="79">O</option>
+                                        <option value="80">P</option>
+                                        <option value="81">Q</option>
+                                        <option value="82">R</option>
+                                        <option value="83">S</option>
+                                        <option value="84">T</option>
+                                        <option value="85">U</option>
+                                        <option value="86">V</option>
+                                        <option value="87">W</option>
+                                        <option value="88">X</option>
+                                        <option value="89">Y</option>
+                                        <option value="90">Z</option>
+                                        <option value="0" i18n-content="disable"></option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="btnSelectedArea">Selected area</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="start center">
+                                    <span>Ctrl+Shift+</span>
+                                    <select id="shortcut_selected">
+                                        <option value="64" hidden="hidden">@</option>
+                                        <option value="49">1</option>
+                                        <option value="50">2</option>
+                                        <option value="51">3</option>
+                                        <option value="52">4</option>
+                                        <option value="53">5</option>
+                                        <option value="54">6</option>
+                                        <option value="55">7</option>
+                                        <option value="56">8</option>
+                                        <option value="57">9</option>
+                                        <option value="65">A</option>
+                                        <option value="66">B</option>
+                                        <option value="67">C</option>
+                                        <option value="68">D</option>
+                                        <option value="69">E</option>
+                                        <option value="70">F</option>
+                                        <option value="71">G</option>
+                                        <option value="72">H</option>
+                                        <option value="73">I</option>
+                                        <option value="74">J</option>
+                                        <option value="75">K</option>
+                                        <option value="76">L</option>
+                                        <option value="77">M</option>
+                                        <option value="78">N</option>
+                                        <option value="79">O</option>
+                                        <option value="80">P</option>
+                                        <option value="81">Q</option>
+                                        <option value="82">R</option>
+                                        <option value="83">S</option>
+                                        <option value="84">T</option>
+                                        <option value="85">U</option>
+                                        <option value="86">V</option>
+                                        <option value="87">W</option>
+                                        <option value="88">X</option>
+                                        <option value="89">Y</option>
+                                        <option value="90">Z</option>
+                                        <option value="0" i18n-content="disable"></option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="btnSelectedScroll">Selected &amp; Scroll</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="start center">
+                                    <span>Ctrl+Shift+</span>
+                                    <select id="shortcut_scroll">
+                                        <option value="64" hidden="hidden">@</option>
+                                        <option value="49">1</option>
+                                        <option value="50">2</option>
+                                        <option value="51">3</option>
+                                        <option value="52">4</option>
+                                        <option value="53">5</option>
+                                        <option value="54">6</option>
+                                        <option value="55">7</option>
+                                        <option value="56">8</option>
+                                        <option value="57">9</option>
+                                        <option value="65">A</option>
+                                        <option value="66">B</option>
+                                        <option value="67">C</option>
+                                        <option value="68">D</option>
+                                        <option value="69">E</option>
+                                        <option value="70">F</option>
+                                        <option value="71">G</option>
+                                        <option value="72">H</option>
+                                        <option value="73">I</option>
+                                        <option value="74">J</option>
+                                        <option value="75">K</option>
+                                        <option value="76">L</option>
+                                        <option value="77">M</option>
+                                        <option value="78">N</option>
+                                        <option value="79">O</option>
+                                        <option value="80">P</option>
+                                        <option value="81">Q</option>
+                                        <option value="82">R</option>
+                                        <option value="83">S</option>
+                                        <option value="84">T</option>
+                                        <option value="85">U</option>
+                                        <option value="86">V</option>
+                                        <option value="87">W</option>
+                                        <option value="88">X</option>
+                                        <option value="89">Y</option>
+                                        <option value="90">Z</option>
+                                        <option value="0" i18n-content="disable"></option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="btnEntirePage">Entire page</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="start center">
+                                    <span>Ctrl+Shift+</span>
+                                    <select id="shortcut_entire">
+                                        <option value="64" hidden="hidden">@</option>
+                                        <option value="49">1</option>
+                                        <option value="50">2</option>
+                                        <option value="51">3</option>
+                                        <option value="52">4</option>
+                                        <option value="53">5</option>
+                                        <option value="54">6</option>
+                                        <option value="55">7</option>
+                                        <option value="56">8</option>
+                                        <option value="57">9</option>
+                                        <option value="65">A</option>
+                                        <option value="66">B</option>
+                                        <option value="67">C</option>
+                                        <option value="68">D</option>
+                                        <option value="69">E</option>
+                                        <option value="70">F</option>
+                                        <option value="71">G</option>
+                                        <option value="72">H</option>
+                                        <option value="73">I</option>
+                                        <option value="74">J</option>
+                                        <option value="75">K</option>
+                                        <option value="76">L</option>
+                                        <option value="77">M</option>
+                                        <option value="78">N</option>
+                                        <option value="79">O</option>
+                                        <option value="80">P</option>
+                                        <option value="81">Q</option>
+                                        <option value="82">R</option>
+                                        <option value="83">S</option>
+                                        <option value="84">T</option>
+                                        <option value="85">U</option>
+                                        <option value="86">V</option>
+                                        <option value="87">W</option>
+                                        <option value="88">X</option>
+                                        <option value="89">Y</option>
+                                        <option value="90">Z</option>
+                                        <option value="0" i18n-content="disable"></option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="btnBrowserWindow">Browser window</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="start center">
+                                    <span>Ctrl+Shift+</span>
+                                    <select id="shortcut_window">
+                                        <option value="64" hidden="hidden">@</option>
+                                        <option value="49">1</option>
+                                        <option value="50">2</option>
+                                        <option value="51">3</option>
+                                        <option value="52">4</option>
+                                        <option value="53">5</option>
+                                        <option value="54">6</option>
+                                        <option value="55">7</option>
+                                        <option value="56">8</option>
+                                        <option value="57">9</option>
+                                        <option value="65">A</option>
+                                        <option value="66">B</option>
+                                        <option value="67">C</option>
+                                        <option value="68">D</option>
+                                        <option value="69">E</option>
+                                        <option value="70">F</option>
+                                        <option value="71">G</option>
+                                        <option value="72">H</option>
+                                        <option value="73">I</option>
+                                        <option value="74">J</option>
+                                        <option value="75">K</option>
+                                        <option value="76">L</option>
+                                        <option value="77">M</option>
+                                        <option value="78">N</option>
+                                        <option value="79">O</option>
+                                        <option value="80">P</option>
+                                        <option value="81">Q</option>
+                                        <option value="82">R</option>
+                                        <option value="83">S</option>
+                                        <option value="84">T</option>
+                                        <option value="85">U</option>
+                                        <option value="86">V</option>
+                                        <option value="87">W</option>
+                                        <option value="88">X</option>
+                                        <option value="89">Y</option>
+                                        <option value="90">Z</option>
+                                        <option value="0" i18n-content="disable"></option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="optionsLabelTabVideo">Start video</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="end center">
+                                    <span>Ctrl+Shift+7</span>
+                                    <a class="nsc-icon-edit-24 open-page" href="#" data-url="chrome://extensions/configureCommands"></a>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="optionsLabelDesktopVideo">Start video</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="end center">
+                                    <span>Ctrl+Shift+8</span>
+                                    <a class="nsc-icon-edit-24 open-page" href="#" data-url="chrome://extensions/configureCommands"></a>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="optionsLabelStopVideo">Start video</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="end center">
+                                    <span>Ctrl+Shift+9</span>
+                                    <a class="nsc-icon-edit-24 open-page" href="#" data-url="chrome://extensions/configureCommands"></a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nsc-settings-shortcut" flex layout="row" layout-align="start center">
+                            <div class="nsc-settings-shortcut-name" flex i18n-content="optionsLabelLoadToNS">Browser window</div>
+                            <div class="nsc-settings-shortcut-data" flex>
+                                <label class="nsc-noselect" flex layout="row" layout-align="start center">
+                                    <span>Ctrl+</span>
+                                    <select id="shortcut_load_to_ns">
+                                        <option value="13">Enter</option>
+                                        <option value="49">1</option>
+                                        <option value="50">2</option>
+                                        <option value="51">3</option>
+                                        <option value="52">4</option>
+                                        <option value="53">5</option>
+                                        <option value="54">6</option>
+                                        <option value="55">7</option>
+                                        <option value="56">8</option>
+                                        <option value="57">9</option>
+                                        <option value="65">A</option>
+                                        <option value="66">B</option>
+                                        <option value="67">C</option>
+                                        <option value="68">D</option>
+                                        <option value="69">E</option>
+                                        <option value="70">F</option>
+                                        <option value="71">G</option>
+                                        <option value="72">H</option>
+                                        <option value="73">I</option>
+                                        <option value="74">J</option>
+                                        <option value="75">K</option>
+                                        <option value="76">L</option>
+                                        <option value="77">M</option>
+                                        <option value="78">N</option>
+                                        <option value="79">O</option>
+                                        <option value="80">P</option>
+                                        <option value="81">Q</option>
+                                        <option value="82">R</option>
+                                        <option value="83">S</option>
+                                        <option value="84">T</option>
+                                        <option value="85">U</option>
+                                        <option value="86">V</option>
+                                        <option value="87">W</option>
+                                        <option value="88">X</option>
+                                        <option value="89">Y</option>
+                                        <option value="90">Z</option>
+                                        <option value="0" i18n-content="disable"></option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /block -->
+
+                </div>
+                <!-- /settings wrapper -->
+
+                <div class="nsc-settings-info"><span i18n-content="appName">Nimbus Screen Capture</span> <a href="http://nimbusweb.me" target="_blank">Nimbus Web</a></div>
+
+            </div>
+            <!-- /wrapper -->
+
+        </div>
+    </div>
+</div>
+
+<script src="js/i18n_template.js"></script>
+</body>
+</html>

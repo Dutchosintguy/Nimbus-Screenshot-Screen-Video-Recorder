@@ -1,0 +1,223 @@
+/*popup*/
+.nsc-popup {
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    z-index: 5000;
+    width: 476px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 20px 20px 40px 20px;
+    font-family: 'Noto Sans';
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 4px;
+    color: #171717;
+    line-height: 1.4;
+}
+
+.nsc-popup-heading {
+    padding: 0 0 20px 0;
+}
+
+.nsc-popup-heading-title .nsc-icon {
+    margin: 0 10px 0 0;
+}
+
+.nsc-slack-connect-logos {
+    padding: 0 0 20px 0;
+}
+/* fvdmedia */
+.nsc-slack-connect-logos .nsc-icon {
+    margin: 0 14px;
+}
+
+.nsc-popup-actions-title {
+    font-size: 20px;
+    color: #262626;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.nsc-popup-actions-text {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.nsc-popup-actions-text strong {
+}
+
+.nsc-popup-actions-buttons {
+    margin: 0 auto;
+    width: 220px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.nsc-popup-actions-buttons .button {
+    margin: 0 0 8px 0;
+}
+
+.nsc-popup-actions-buttons .button:last-child {
+    margin: 0;
+}
+
+.ncs-popup-description {
+    position: relative;
+    width: 50%;
+}
+
+.ncs-popup-description .nsc-icon {
+    width: 164px;
+    height: 104px;
+    margin: 0 auto 10px;
+}
+
+.ncs-popup-description-content {
+    text-align: center;
+    color: #585858;
+}
+
+/*form*/
+.nsc-popup-form {
+    margin: 0 auto;
+    width: 220px;
+}
+
+.nsc-popup-form-field {
+    padding: 0 0 16px 0;
+}
+
+.nsc-popup-form-field label {
+    display: block;
+    font-weight: bold;
+    color: #656565;
+    padding: 0 0 3px 0;
+}
+
+.nsc-popup-form-field input {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    padding: 0 10px;
+    border-radius: 1px;
+}
+
+.nsc-popup-form-field input:hover,
+.nsc-popup-form-field input:focus {
+    border-color: #009FB7;
+}
+
+.nsc-popup-form-link {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+
+.nsc-popup-form-link-small {
+    text-align: left;
+    font-size: 12px;
+}
+
+.nsc-popup-form-link a {
+    color: #009FB7;
+}
+
+.nsc-popup-form-link-small a {
+}
+
+.nsc-popup-form-link a:hover {
+    color: #007C8F;
+}
+
+.nsc-popup-form-field + .nsc-popup-form-link {
+    margin: -8px 0 8px 0;
+}
+
+.nsc-popup-form-actions {
+    padding: 8px 0;
+}
+
+.nsc-popup-form-actions .button {
+    margin: 0 0 8px 0;
+}
+
+.nsc-popup-form-or {
+    text-align: center;
+    margin: 0 0 8px 0;
+    position: relative;
+    font-size: 0;
+}
+
+.nsc-popup-form-or:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 1px;
+    width: 100%;
+    background: #dadada;
+}
+
+.nsc-popup-form-or span {
+    display: inline-block;
+    position: relative;
+    background: #fff;
+    z-index: 2;
+    font-size: 12px;
+    color: #000;
+    padding: 0 10px;
+}
+
+/*record*/
+.nsc-popup-record-logo {
+    padding: 0 0 10px 0;
+}
+
+.nsc-popup-record-logo .nsc-icon {
+    width: 48px;
+    height: 48px;
+    background-size: 100% 100% !important;
+}
+
+.nsc-popup-record-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nsc-popup-record-actions {
+}
+
+.nsc-popup-record-action {
+    padding: 0 0 12px 0;
+}
+
+.nsc-popup-record-action-count {
+    font-size: 16px;
+    color: #4d4d4d;
+    width: 26px;
+    font-weight: bold;
+}
+
+.nsc-popup-record-content .nsc-popup-actions-text {
+    padding-left: 26px;
+    text-align: left;
+}
+
+.nsc-popup-record-content .nsc-popup-actions-buttons {
+    width: 100%;
+    padding: 0 0 0 26px;
+}
+
+
+
+
+

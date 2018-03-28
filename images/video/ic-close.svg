@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-panels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-edit-panel" transform="translate(-449.000000, -128.000000)">
+            <g id="video-panel-small-v-1" transform="translate(55.000000, 124.000000)">
+                <g id="ic-close" transform="translate(394.000000, 4.000000)">
+                    <g>
+                        <rect id="Rectangle-28" x="0" y="0" width="12" height="12"></rect>
+                        <path d="M6,5.2 L2.8,2 L2,2.8 L5.2,6 L2,9.2 L2.8,10 L6,6.8 L9.2,10 L10,9.2 L6.8,6 L10,2.8 L9.2,2 L6,5.2 Z" id="Combined-Shape" fill="#5A5A5A"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

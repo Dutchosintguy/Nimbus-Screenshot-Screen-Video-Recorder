@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-unlock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-919.000000, -38.000000)">
+            <g transform="translate(33.000000, 26.000000)">
+                <g transform="translate(12.000000, 12.000000)">
+                    <g transform="translate(874.000000, 0.000000)">
+                        <g>
+                            <rect x="0" y="0" width="16" height="16"></rect>
+                            <rect fill="#5A5A5A" x="2" y="7" width="12" height="9"></rect>
+                            <path d="M3.99973379,1.9998669 C4.91194626,0.785495901 6.36424193,0 8,0 C10.7614237,0 13,2.23857625 13,5 C13,7.76142375 10.7614237,10 8,10 C5.96586218,10 4.21543112,8.785307 3.43449591,7.04171011 L5.80193362,7.04171011 C6.34973914,7.63119761 7.13180036,8 8,8 C9.65685425,8 11,6.65685425 11,5 C11,3.34314575 9.65685425,2 8,2 C7.15106659,2 6.38449101,2.35261582 5.83874714,2.91937357 L3.99973379,1.9998669 Z" fill="#5A5A5A"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

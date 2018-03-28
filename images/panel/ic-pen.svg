@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-pen</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-155.000000, -441.000000)">
+            <g transform="translate(143.000000, 429.000000)">
+                <g transform="translate(12.000000, 12.000000)">
+                    <g>
+                        <rect x="0" y="0" width="16" height="16"></rect>
+                        <path d="M13.5,2.27766164e-05 C14.4469301,2.27766164e-05 15.3125879,0.535028717 15.736068,1.38198879 C16.159548,2.22894886 16.0681581,3.24247866 15.5,4.00002278 L14.5,5.00002278 L11,1.49502278 L12,0.495022777 C12.4329591,0.171471205 12.9595059,-0.00228922794 13.5,2.27766164e-05 L13.5,2.27766164e-05 Z M1,11.4950228 L0,15.9950228 L4.5,14.9950228 L13.744,5.75102278 L10.244,2.25102278 L1,11.4950228 Z" fill="#5A5A5A"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,641 @@
+{
+   "appDesc": {
+      "message": "Web sayfasını, bir kısmını veya tarayıcı penceresinin tamamını yakalayın, ekran görüntülerini düzenleyin ve görüntüleri Yerel Dosya veya Google Drive'a kaydedin."
+   },
+   "appName": {
+      "message": "Nimbus Screenshot & Screen Video Recorder"
+   },
+   "appNameMini": {
+      "message": "Nimbus Screenshot"
+   },
+   "btnAccessMic": {
+      "message": "Access to microphone"
+   },
+   "btnAndroidVersion": {
+      "message": "Android Sürümü"
+   },
+   "btnBlankScreen": {
+      "message": "Boş Ekran"
+   },
+   "btnBrowserWindow": {
+      "message": "Tarayıcı penceresi"
+   },
+   "btnCaptureFragment": {
+      "message": "Parça Yakala"
+   },
+   "btnCaptureVideo": {
+      "message": "Record Video"
+   },
+   "btnConnectSlack": {
+      "message": "Connect Slack"
+   },
+   "btnDelayedScreen": {
+      "message": "Delayed screen"
+   },
+   "btnDesktop": {
+      "message": "Masaüstünden Yakala"
+   },
+   "btnEnableCopy": {
+      "message": "panoya kopyala"
+   },
+   "btnEnableDownload": {
+      "message": "Send to Nimbus/Google/Slack"
+   },
+   "btnEnableEdit": {
+      "message": "Düzenlemeyi etkinleştir"
+   },
+   "btnEnableSave": {
+      "message": "Farklı kaydet"
+   },
+   "btnEntirePage": {
+      "message": "Bütün sayfa"
+   },
+   "btnManual": {
+      "message": "Manual"
+   },
+   "btnOptions": {
+      "message": "Seçenekler"
+   },
+   "btnReadyVideo": {
+      "message": "I'm ready to record video"
+   },
+   "btnSelectedArea": {
+      "message": "Seçili alan"
+   },
+   "btnSelectedScroll": {
+      "message": "Seçili & Kaydır"
+   },
+   "btnVisiblePage": {
+      "message": "Sayfanın görünen kısmı"
+   },
+   "cropBtnCancel": {
+      "message": "İptal"
+   },
+   "cropBtnCopy": {
+      "message": "Panoya kopyala"
+   },
+   "cropBtnEdit": {
+      "message": "Düzenle"
+   },
+   "cropBtnNimbus": {
+      "message": "Nimbus'a Gönder"
+   },
+   "cropBtnSave": {
+      "message": "Kaydet"
+   },
+   "editBtnBack": {
+      "message": "Geri"
+   },
+   "editBtnCopy": {
+      "message": "Panoya Kopyala"
+   },
+   "editBtnDone": {
+      "message": "Done"
+   },
+   "editBtnDrive": {
+      "message": "Google'a gönder"
+   },
+   "editBtnNimbus": {
+      "message": "Nimbus'a kaydet"
+   },
+   "editBtnPrint": {
+      "message": "Görüntüyü Yazdır"
+   },
+   "editBtnSave": {
+      "message": "Görüntü olarak Kaydet"
+   },
+   "editBtnSaveVideo": {
+      "message": "Save video"
+   },
+   "gDriveBtnDone": {
+      "message": "Bitti"
+   },
+   "gDriveLabel": {
+      "message": "Lütfen ekran görüntülerini kaydetmek istediğiniz klasörü seçin"
+   },
+   "gDriveLabelFolders": {
+      "message": "Screenshot will be saved"
+   },
+   "gDriveLogout": {
+      "message": "Logout"
+   },
+   "gDriveMainFolder": {
+      "message": "Bu Ana Klasördür"
+   },
+   "gDriveNoItems": {
+      "message": "Öğe yok"
+   },
+   "gDriveNotAuthorized": {
+      "message": "You are not logged in to your account"
+   },
+   "gDriveSendTo": {
+      "message": "Send to"
+   },
+   "gDriveTitle": {
+      "message": "Google Drive'a gönder"
+   },
+   "gDriveUploadPrivate": {
+      "message": "Upload as private"
+   },
+   "labelCaptureHelper": {
+      "message": "Yaslamak için ekranlardan birini seçin!"
+   },
+   "labelDropImage": {
+      "message": "görüntüyü buraya bırak"
+   },
+   "newReleaseText": {
+      "message": "\u003Cli>New design;\u003C/li>\u003Cli>A lock that prevents elements from being edited;\u003C/li>\u003Cli>Delayed screenshot;\u003C/li>\u003Cli>Possibility to customize the main menu removing the unnecessary;\u003C/li>\u003Cli>Possibility to deliberately add numbers next to the needed shapes;\u003C/li>\u003Cli>Possibility to quickly send to  Nimbus/Slack from the editor using the Ctrl+Enter hotkey;\u003C/li>\u003Cli>Fixed some other bugs;\u003C/li>"
+   },
+   "newReleaseTitle": {
+      "message": "Welcome to new version of Nimbus Screenshot"
+   },
+   "nimbusAccessAnyTimes": {
+      "message": "Access to the screenshots and screenshots at any time and from any device;"
+   },
+   "nimbusAccount": {
+      "message": "Nimbus account"
+   },
+   "nimbusBad": {
+      "message": "Bad"
+   },
+   "nimbusBeBetter": {
+      "message": "Be better"
+   },
+   "nimbusBtnAuthFacebook": {
+      "message": "Using Facebook"
+   },
+   "nimbusBtnAuthGoogle": {
+      "message": "Using Google"
+   },
+   "nimbusBtnLogin": {
+      "message": "Sign In to Nimbus Note"
+   },
+   "nimbusBtnRemind": {
+      "message": "Forgot your password?"
+   },
+   "nimbusBtnSignup": {
+      "message": "Create account"
+   },
+   "nimbusChannels": {
+      "message": "Channels"
+   },
+   "nimbusComment": {
+      "message": "Comment"
+   },
+   "nimbusCommentPlaceholder": {
+      "message": "Comment your screenshot"
+   },
+   "nimbusCreateAccount": {
+      "message": "Create account"
+   },
+   "nimbusDid": {
+      "message": "Did"
+   },
+   "nimbusEnter": {
+      "message": "Sign In to Nimbus Note"
+   },
+   "nimbusEnvironmentInfo": {
+      "message": "Add information about system and page"
+   },
+   "nimbusGoPro": {
+      "message": "Nimbus Pro'ya git"
+   },
+   "nimbusGood": {
+      "message": "Good!"
+   },
+   "nimbusInfoAgent": {
+      "message": "User Agent"
+   },
+   "nimbusInfoBrowser": {
+      "message": "User Browser"
+   },
+   "nimbusInfoPage": {
+      "message": "Web Page"
+   },
+   "nimbusInfoPlatform": {
+      "message": "User Platform"
+   },
+   "nimbusInfoScreen": {
+      "message": "Screen Resolution"
+   },
+   "nimbusLabelEmail": {
+      "message": "Email"
+   },
+   "nimbusLabelPassword": {
+      "message": "Şifre"
+   },
+   "nimbusLabelPasswordAndInfo": {
+      "message": "Password (min. 8 symbol)"
+   },
+   "nimbusLabelRetypePass": {
+      "message": "Şifrenizi yeniden yazın"
+   },
+   "nimbusLimitDescription": {
+      "message": "Aylık trafik limitini 1 gigabayta yükseltmek için \u003Cb>Nimbus Pro'ya geçebilirsiniz.\u003C/b>"
+   },
+   "nimbusLimitOf": {
+      "message": "of"
+   },
+   "nimbusLimitSpace": {
+      "message": "\u003Cb>Aylık trafik limitiniz olan 100 megabayta ulaşmak üzere olduğunuz için\u003C/b> dosyayı maalesef kaydedemeyeceksiniz."
+   },
+   "nimbusLimitUsage": {
+      "message": "Kullanım"
+   },
+   "nimbusLimitVideo": {
+      "message": "Unfortunately, the video size\u003Cbr>exceeds 10 megabytes"
+   },
+   "nimbusLimitVideoDestruction": {
+      "message": "If you would like to upload\u003Cbr>\u003Cb>video larger than 10 megabytes\u003C/b>, you have to\u003Cbr>upgrade your subscription to \u003Cb>Nimbus Pro\u003C/b>"
+   },
+   "nimbusNoThanks": {
+      "message": "No thanks"
+   },
+   "nimbusNotAccount": {
+      "message": "I do not have an account"
+   },
+   "nimbusNoteName": {
+      "message": "Note name"
+   },
+   "nimbusPlaceholderEmail": {
+      "message": "Email"
+   },
+   "nimbusPlaceholderEnterText": {
+      "message": "Enter the text"
+   },
+   "nimbusPlaceholderPassword": {
+      "message": "Şifre"
+   },
+   "nimbusPrivate": {
+      "message": "özel"
+   },
+   "nimbusPrivateMessage": {
+      "message": "Private message"
+   },
+   "nimbusRate": {
+      "message": "Like Nimbus Screenshot? Put it a rating!"
+   },
+   "nimbusRateUs": {
+      "message": "Rate Us"
+   },
+   "nimbusRegistration": {
+      "message": "Registration"
+   },
+   "nimbusRemindPass": {
+      "message": "Remind password"
+   },
+   "nimbusSaveScreencast": {
+      "message": "Save screencast"
+   },
+   "nimbusSaveScreenshot": {
+      "message": "Save screenshot"
+   },
+   "nimbusSearch": {
+      "message": "Search"
+   },
+   "nimbusSelectChannel": {
+      "message": "Select channel"
+   },
+   "nimbusSelectFolder": {
+      "message": "Select folder"
+   },
+   "nimbusSend": {
+      "message": "Send to Nimbus Note"
+   },
+   "nimbusShareFriends": {
+      "message": "Send screenshots and screencasts to friends and colleagues;"
+   },
+   "nimbusSlackAccount": {
+      "message": "Slack account"
+   },
+   "nimbusSlackHidePanel": {
+      "message": "Hide Slack panel"
+   },
+   "nimbusSlackLogout": {
+      "message": "Logout Slack"
+   },
+   "nimbusSlackSend": {
+      "message": "Send to Slack"
+   },
+   "nimbusSlackWelcome": {
+      "message": "Take a moment to read:"
+   },
+   "nimbusSlackWelcome2": {
+      "message": "Nimbus Screenshot will not have access to the messages in chat rooms. All your conversations will remain private. Nimbus Screenshot can only upload screenshots in Slack"
+   },
+   "nimbusSlackWelcome3": {
+      "message": "If you have any questions, please write on email"
+   },
+   "nimbusSupport": {
+      "message": "Support"
+   },
+   "nimbusUpgradePro": {
+      "message": "Why Nimbus Pro is better"
+   },
+   "nimbusViewUploads": {
+      "message": "View my Nimbus uploads"
+   },
+   "notificationCopy": {
+      "message": "Görüntü panoya kopyalandı."
+   },
+   "notificationCrop": {
+      "message": "Drag and Capture Page (Press Esc to Exit)"
+   },
+   "notificationEmailFail": {
+      "message": "Bu e-posta zaten kayıtlı."
+   },
+   "notificationEmailIncorrect": {
+      "message": "E-posta adresi yanlış. Lütfen tekrar deneyin."
+   },
+   "notificationInsertInfo": {
+      "message": "Sadece bir görüntü ekleyebilirsiniz."
+   },
+   "notificationLoginFail": {
+      "message": "Giriş başarısız. Lütfen tekrar deneyin."
+   },
+   "notificationNetworkError": {
+      "message": "Problem with server or your Internet-connection. Please try again."
+   },
+   "notificationReachedLimit": {
+      "message": "Aylık trafik limitinize (100 MB) ulaştınız. Devam etmek için, Nimbus Pro'yu satın almak zorundasınız."
+   },
+   "notificationRegisterFail": {
+      "message": "Kayıt başarısız. Lütfen tekrar deneyin."
+   },
+   "notificationRestoreSent": {
+      "message": "Kurtarma talimatları e-posta adresinize gönderildi."
+   },
+   "notificationUploaded": {
+      "message": "Yükleme tamamlandı."
+   },
+   "notificationUrlCopied": {
+      "message": "URL panoya kopyalandı."
+   },
+   "notificationWrong": {
+      "message": "Ters giden bir şey var. Lütfen tekrar deneyin."
+   },
+   "optionsCaptureSettings": {
+      "message": "Screenshot Settings"
+   },
+   "optionsLabelAfterClicking": {
+      "message": "After clicking on the icon"
+   },
+   "optionsLabelAndThen": {
+      "message": "and then"
+   },
+   "optionsLabelCanUse": {
+      "message": "Kullanabilecekleriniz"
+   },
+   "optionsLabelDelayedScreenshotTime": {
+      "message": "Delay before delayed screen (s)"
+   },
+   "optionsLabelFilenameTemplate": {
+      "message": "Dosya Adı Şablonu"
+   },
+   "optionsLabelHideFixedElements": {
+      "message": "Sabit öğeleri gizle"
+   },
+   "optionsLabelImageFormat": {
+      "message": "Görüntü biçimi"
+   },
+   "optionsLabelImageQuality": {
+      "message": "Görüntü kalitesi"
+   },
+   "optionsLabelLoadToNS": {
+      "message": "Send to Nimbus/Slack"
+   },
+   "optionsLabelQuickCaptureEnable": {
+      "message": "Hızlı yakalamayı etkinleştir (açılır pencereyi gösterme)"
+   },
+   "optionsLabelSaveAs": {
+      "message": "'Farklı Kaydet' iletişim kutusunu etkinleştir"
+   },
+   "optionsLabelSaveCropPosition": {
+      "message": "Kırpma pozisyonunu kaydet"
+   },
+   "optionsLabelShowInfoPrint": {
+      "message": "Display URL/date in Printing"
+   },
+   "optionsLabelWantCapture": {
+      "message": "make a screenshot"
+   },
+   "optionsMainMenu": {
+      "message": "Main menu settings"
+   },
+   "optionsSettingImage": {
+      "message": "Image settings"
+   },
+   "optionsSettingsSave": {
+      "message": "Save settings"
+   },
+   "optionsShortcutSettings": {
+      "message": "Hotkeys settings"
+   },
+   "optionsTitle": {
+      "message": "Ekran Görüntüsü Ayarları"
+   },
+   "panelActions": {
+      "message": "Eylemler"
+   },
+   "panelAlfaChanel": {
+      "message": "Move slider to change opacity"
+   },
+   "panelCancel": {
+      "message": "Cancel"
+   },
+   "panelChange": {
+      "message": "Change"
+   },
+   "panelHeight": {
+      "message": "Height"
+   },
+   "panelParameters": {
+      "message": "Parametreler"
+   },
+   "panelProportional": {
+      "message": "Proportional"
+   },
+   "panelShadow": {
+      "message": "Shadow"
+   },
+   "panelSize": {
+      "message": "Boyut"
+   },
+   "panelTools": {
+      "message": "Çizim araçları"
+   },
+   "panelWidth": {
+      "message": "Width"
+   },
+   "popupAccessMic": {
+      "message": "For starters, you have to allow access to your microphone"
+   },
+   "popupAfterCapture": {
+      "message": "Action after the capture"
+   },
+   "popupBtnBack": {
+      "message": "back"
+   },
+   "popupBtnDesktopRecord": {
+      "message": "Desktop"
+   },
+   "popupBtnStopRecord": {
+      "message": "Stop Recording"
+   },
+   "popupBtnTabRecord": {
+      "message": "Tab"
+   },
+   "popupLabelCountdown": {
+      "message": "Countdown"
+   },
+   "popupLabelCursorAnimate": {
+      "message": "Animated cursor"
+   },
+   "popupLabelRecordMic": {
+      "message": "Record Mic Sound"
+   },
+   "popupLabelRecordTab": {
+      "message": "Record Tab Sound"
+   },
+   "popupMyNotes": {
+      "message": "My Uploads"
+   },
+   "popupReadManual": {
+      "message": "Also, you can read the instructions for using the application"
+   },
+   "popupRecordTitle": {
+      "message": "Video is recording"
+   },
+   "popupSec": {
+      "message": "sec."
+   },
+   "popupTitle": {
+      "message": "Types screenshots"
+   },
+   "popupVideoTitle": {
+      "message": "Record video"
+   },
+   "popupWelcomeVideo": {
+      "message": "Welcome to the video recording"
+   },
+   "tooltipArrowCurve": {
+      "message": "Arrow curve"
+   },
+   "tooltipArrowDouble": {
+      "message": "Arrow double"
+   },
+   "tooltipArrowLine": {
+      "message": "Arrow line"
+   },
+   "tooltipBlur": {
+      "message": "Blur all"
+   },
+   "tooltipChangeZoom": {
+      "message": "Change zoom"
+   },
+   "tooltipCircle": {
+      "message": "Circle"
+   },
+   "tooltipColorAndSizeShadow": {
+      "message": "Color and size shadow"
+   },
+   "tooltipColorFull": {
+      "message": "Color fill"
+   },
+   "tooltipColorLineAndText": {
+      "message": "Color line and text"
+   },
+   "tooltipCopy": {
+      "message": "Copy to Clipboard"
+   },
+   "tooltipCrop": {
+      "message": "Crop"
+   },
+   "tooltipEllipse": {
+      "message": "Ellipse"
+   },
+   "tooltipFontAndSize": {
+      "message": "Font and size"
+   },
+   "tooltipLine": {
+      "message": "Line"
+   },
+   "tooltipLineCurve": {
+      "message": "Line curve"
+   },
+   "tooltipLineDotted": {
+      "message": "Line dotted"
+   },
+   "tooltipLineWidth": {
+      "message": "Line width"
+   },
+   "tooltipLock": {
+      "message": "Lock figures"
+   },
+   "tooltipMakeScreenshot": {
+      "message": "Ekran görüntüsü al"
+   },
+   "tooltipMarker": {
+      "message": "Marker"
+   },
+   "tooltipNoteText": {
+      "message": "Note text"
+   },
+   "tooltipNumber": {
+      "message": "Numbered markers"
+   },
+   "tooltipNumbers": {
+      "message": "sayıları göster"
+   },
+   "tooltipOpenFile": {
+      "message": "Dosya aç"
+   },
+   "tooltipPassInfo": {
+      "message": "Şifre en az 8 karakter içermelidir"
+   },
+   "tooltipPassMatch": {
+      "message": "Şifreler aynı değil"
+   },
+   "tooltipPen": {
+      "message": "Kalem"
+   },
+   "tooltipRedo": {
+      "message": "Yinele"
+   },
+   "tooltipResize": {
+      "message": "Resize"
+   },
+   "tooltipRounded": {
+      "message": "Rounded"
+   },
+   "tooltipShortUrl": {
+      "message": "Short url"
+   },
+   "tooltipSquare": {
+      "message": "Square"
+   },
+   "tooltipText": {
+      "message": "Text"
+   },
+   "tooltipTextArrow": {
+      "message": "Text arrow"
+   },
+   "tooltipUndo": {
+      "message": "Geri al"
+   },
+   "tooltipUndoAll": {
+      "message": "Tümünü geri al"
+   },
+   "tooltipUploadTo": {
+      "message": "Upload to"
+   },
+   "tooltipWrongEmail": {
+      "message": "Yanlış e-posta adresi"
+   },
+   "tooltipZoomMinus": {
+      "message": "Zoom -"
+   },
+   "tooltipZoomPlus": {
+      "message": "Zoom +"
+   }
+}

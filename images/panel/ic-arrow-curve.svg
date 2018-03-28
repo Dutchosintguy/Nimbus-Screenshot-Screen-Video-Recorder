@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-arrow-curve</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-280.000000, -463.000000)">
+            <g transform="translate(268.000000, 423.000000)">
+                <g transform="translate(12.000000, 40.000000)">
+                    <g>
+                        <rect x="0" y="0" width="16" height="16"></rect>
+                        <polygon fill="#5A5A5A" points="16 0 14 0 14 9 16 9"></polygon>
+                        <polygon fill="#5A5A5A" points="16 2 16 0 7 0 7 2"></polygon>
+                        <polygon fill="#5A5A5A" points="6.0547002 12.8320503 6.40792818 12.596565 6.48386991 12.1788854 7.5 7.5 12.0619677 5.35224589 15.7071068 1.70710678 14.2928932 0.292893219 11 3.5 6.12860932 5.57152331 5.61507118 5.77693857 5.51613009 6.32111456 4.5 11.5 0.445299804 14.1679497 1.5547002 15.8320503"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

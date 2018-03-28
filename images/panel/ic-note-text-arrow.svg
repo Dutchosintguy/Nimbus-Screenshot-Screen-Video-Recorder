@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-note-text-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-343.000000, -436.000000)">
+            <g transform="translate(331.000000, 424.000000)">
+                <g transform="translate(12.000000, 12.000000)">
+                    <g>
+                        <rect x="0" y="0" width="16" height="16"></rect>
+                        <path d="M9.29289322,7 L5,7 L5,6 L9.29289322,6 L7.14644661,3.85355339 L6.79289322,3.5 L7.5,2.79289322 L7.85355339,3.14644661 L10.8535534,6.14644661 L11.2071068,6.5 L11.0303301,6.6767767 L10.8535534,6.85355339 L7.85355339,9.85355339 L7.5,10.2071068 L6.79289322,9.5 L7.14644661,9.14644661 L9.29289322,7 Z M0,1 L16,1 L16,12 L0,12 L0,1 Z M1,15 L5.5,12 L2.5,12 L1,15 Z" fill="#5A5A5A"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

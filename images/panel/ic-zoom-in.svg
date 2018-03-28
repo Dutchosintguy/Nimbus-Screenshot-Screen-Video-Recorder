@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-zoom-in</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-45.000000, -38.000000)">
+            <g transform="translate(33.000000, 26.000000)">
+                <g transform="translate(12.000000, 12.000000)">
+                    <g>
+                        <g>
+                            <rect x="0" y="0" width="16" height="16"></rect>
+                            <path d="M13,8 C13,5.23857625 10.7614237,3 8,3 C5.23857625,3 3,5.23857625 3,8 C3,10.7614237 5.23857625,13 8,13 C10.7614237,13 13,10.7614237 13,8 Z M1,8 C1,4.13400675 4.13400675,1 8,1 C11.8659932,1 15,4.13400675 15,8 C15,11.8659932 11.8659932,15 8,15 C4.13400675,15 1,11.8659932 1,8 Z" fill="#5A5A5A"></path>
+                            <polygon fill="#5A5A5A" points="14.2928932 15.7071068 15.7071068 14.2928932 12.7071068 11.2928932 11.2928932 12.7071068"></polygon>
+                            <rect fill="#5A5A5A" x="7" y="5" width="2" height="6"></rect>
+                            <rect fill="#5A5A5A" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) " x="7" y="5" width="2" height="6"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            pointer-events: auto;
+        }
+
+        .panel-tools {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            padding: 5px;
+            background-color: #ccc;
+            clear: both;
+            z-index: 423423423;
+        }
+
+        .panel-tools button {
+            margin: 2px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<div class="panel-tools" id="nimbus_video_panel_tools">
+    <button data-event="nimbus-editor-active-tools" data-event-param="cursorDefault">cursor-default</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="cursorRing">cursor-ring</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="cursorShadow">cursor-shadow</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="pen">pen</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="square">square</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="arrow">arrow</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="notifGreen">notifGreen</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="notifRed">notifRed</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="notifBlue">notifBlue</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="clear">clear</button>
+    <button data-event="nimbus-editor-active-tools" data-event-param="clearAll">claer all</button>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/video-editor.js"></script>
+</body>
+</html>

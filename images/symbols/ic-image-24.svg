@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-image-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="17" cy="16" r="6"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-image-24">
+            <g>
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <rect id="Rectangle-3" fill="#5A5A5A" x="2" y="2" width="20" height="18" rx="2"></rect>
+                <rect id="Rectangle-4" fill="#FFFFFF" x="3" y="3" width="18" height="16" rx="1"></rect>
+                <rect id="Rectangle-5" fill="#D1D1D1" x="4" y="4" width="16" height="14" rx="1"></rect>
+                <circle id="Oval-5" fill="#FFFFFF" cx="17" cy="7" r="2"></circle>
+                <polyline id="Path-2" stroke="#FFFFFF" stroke-linecap="round" points="5 14 8 12 11 14 14 12 17 14"></polyline>
+                <g id="Oval-4">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#5A5A5A" stroke-width="1" cx="17" cy="16" r="5.5"></circle>
+                </g>
+                <path d="M21,21 L22.5,22.5" id="Line" stroke="#5A5A5A" stroke-width="2" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,340 @@
+#areafon {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    cursor: crosshair;
+}
+
+#areafon * {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#areafon button:focus {
+    outline: none;
+}
+
+.ns-crop-size {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    padding: 3px 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 2px solid #cac9c9;
+    border-radius: 4px;
+    z-index: 1000;
+    background: #fff;
+    white-space: nowrap;
+}
+
+.ns-crop-buttons {
+    position: absolute;
+    border: 2px solid #cac9c9;
+    border-radius: 4px;
+    z-index: 1000;
+    line-height: 0 !important;
+}
+
+.ns-crop-buttons.bottom {
+    bottom: auto;
+    top: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    white-space: nowrap;
+}
+
+.ns-crop-buttons.more {
+    top: 100%;
+    right: 0;
+}
+
+.ns-crop-buttons .ns-btn {
+    height: 55px;
+    width: 75px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.ns-crop-buttons .ns-btn:before {
+    content: '';
+    width: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #cac9c9;
+}
+
+.ns-crop-buttons .ns-btn:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.ns-crop-buttons .ns-btn:last-child {
+    border-radius: 0 3px 3px 0;
+}
+
+.ns-crop-buttons .ns-btn:last-child:before {
+    display: none;
+}
+
+.ns-crop-buttons .ns-btn i {
+    width: 40px;
+    height: 36px;
+    display: block;
+    margin: 0 auto;
+    transition: height .3s;
+}
+
+.ns-crop-buttons .ns-btn.edit i {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/new/ic-selection-edit-24.svg) no-repeat center;
+    background-size: contain;
+}
+
+.ns-crop-buttons .ns-btn.save i {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/new/ic-selection-done-24.svg) no-repeat center;
+    background-size: contain;
+}
+
+.ns-crop-buttons .ns-btn.cancel i {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/new/ic-selection-cancel-24.svg) no-repeat center;
+    background-size: contain;
+}
+
+.ns-crop-buttons .ns-btn span {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+    color: #000;
+    height: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    transition: height .3s;
+}
+
+.ns-crop-buttons .ns-btn:hover i {
+    height: 20px;
+}
+
+.ns-crop-buttons .ns-btn:hover span {
+    height: 16px;
+}
+
+.ns-crop-more {
+    position: absolute;
+    cursor: pointer;
+    top: 100%;
+    right: 0;
+    border: 2px solid #cac9c9;
+    border-radius: 4px;
+    z-index: 1000;
+    line-height: 0 !important;
+}
+
+.ns-crop-more > button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #fff url(chrome-extension://__MSG_@@extension_id__/images/new/ic-more-16.svg) no-repeat center;
+    background-size: 70%;
+}
+
+.ns-crop-more-container {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    padding: 10px 0;
+    margin: 0 0 3px 0;
+    border: 2px solid #cac9c9;
+    border-radius: 3px;
+    background-color: #fff;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.ns-crop-more:hover .ns-crop-more-container {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ns-crop-more-container .ns-btn {
+    width: 100%;
+    display: block;
+    padding: 10px 10px 10px 45px;
+    text-align: left !important;
+    line-height: 30px !important;
+    position: relative;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #fff;
+}
+
+.ns-crop-more-container .ns-btn:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: transform .5s;
+}
+
+.ns-crop-more-container .ns-btn:hover:before {
+    /*transform: rotate(360deg);*/
+}
+
+.ns-crop-more-container .ns-btn.nimbus:before {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/new/ic-nimbus-16.svg) no-repeat 0 0;
+    background-size: 25px;
+}
+
+.ns-crop-more-container .ns-btn.slack:before {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/new/ic-slack-16.svg) no-repeat 0 0;
+    background-size: 25px;
+}
+
+.ns-crop-more-container .ns-btn.google:before {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/new/ic-gdrive-16.svg) no-repeat 0 0;
+    background-size: 25px;
+}
+
+.ns-crop-more-container .ns-btn.print:before {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/new/ic-print-16.svg) no-repeat 0 0;
+    background-size: 25px;
+}
+
+.ns-crop-more-container .ns-btn.copy:before {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/new/ic-selection-copy-16.svg) no-repeat 0 0;
+    background-size: 25px;
+}
+
+.ns-crop-more-container .ns-btn span {
+    width: 100%;
+    display: block;
+    text-align: left !important;
+    line-height: 25px !important;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+/*--------------------crop buttons --------------------------------------*/
+
+#areafon #screenshotbutton.crop_buttons,
+#screenshotbutton.crop_buttons {
+    width: 108px;
+    margin-left: -54px;
+}
+
+#areafon #screenshotbutton.crop_buttons .edit_ns-btn.edit,
+#screenshotbutton.crop_buttons .edit_ns-btn.edit {
+    border-right: 1px solid #767676;
+}
+
+/*------------------------------*/
+
+#areafon .cropNotification {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 300px;
+    padding: 0 0 5px 0;
+    background: rgba(250, 250, 250, 0.9);
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    color: #222;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    opacity: 0;
+    -webkit-animation: myfirst 3s;
+    animation: myfirst 3s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*#imgdownload {*/
+/*float: right;*/
+/*padding: 5px;*/
+/*width: 50px;*/
+/*cursor: pointer;*/
+/*margin: 2px;*/
+/*display: block;*/
+/*text-decoration: none;*/
+/*background-color: #fff;*/
+/*border: 1px solid #888;*/
+/*text-align: center;*/
+/*height: 18px;*/
+/*}*/
+
+#theloupe {
+    position: absolute;
+    width: 240px;
+    /*height: 255px;*/
+    overflow: hidden;
+    padding: 1px;
+    top: 0;
+    left: 0;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    display: none;
+    background: #FFF;
+    /*border-radius: 50%;*/
+    z-index: 9000;
+    /*box-shadow: rgb(0, 0, 0) 0px 0px 20px inset;*/
+}
+
+#theloupe span {
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    margin-left: 3px;
+    width: 115px;
+    font-size: 12px;
+    line-height: 16px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+#theloupecanvas {
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*border-radius: 50%;*/
+    background-color: #CCC;
+}

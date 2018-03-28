@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-star-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-star-24" fill-rule="nonzero" fill="#189FB5">
+            <path d="M12,18.1955098 L18.1400909,21.306822 L16.9674379,14.716957 L21.9348758,10.0499887 L15.0700455,9.08854033 L12,3.09288306 L8.92995454,9.08854033 L2.0651242,10.0499887 L7.0325621,14.716957 L5.85990908,21.306822 L12,18.1955098 Z M4.58359214,23 L6,15.0403252 L0,9.40325225 L8.29179607,8.24195135 L12,1 L15.7082039,8.24195135 L24,9.40325225 L18,15.0403252 L19.4164079,23 L12,19.2419513 L4.58359214,23 Z" id="Star"></path>
+        </g>
+    </g>
+</svg>

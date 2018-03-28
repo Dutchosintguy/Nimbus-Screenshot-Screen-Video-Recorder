@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-cursor-long</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-panels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-edit-panel" transform="translate(-810.000000, -97.000000)">
+            <g id="cursors" transform="translate(702.000000, 85.000000)">
+                <g id="ic-cursor-long" transform="translate(108.000000, 12.000000)">
+                    <g>
+                        <rect id="bounds" x="0" y="0" width="16" height="16"></rect>
+                        <path d="M6.91051509,8.79286803 L4.70588235,14.1176471 L1.24344979e-14,1.86517468e-14 L14.1176471,4.70588235 L8.79286803,6.91051509 L11.2941176,9.41176471 L9.41176471,11.2941176 L6.91051509,8.79286803 L6.91051509,8.79286803 Z M12.2352941,10.3529412 L10.3529412,12.2352941 L12.2352941,14.1176471 L14.1176471,12.2352941 L12.2352941,10.3529412 L12.2352941,10.3529412 Z M15.0588235,13.1764706 L13.1764706,15.0588235 L14.1176471,16 L16,14.1176471 L15.0588235,13.1764706 L15.0588235,13.1764706 Z" id="Combined-Shape" fill="#5A5A5A"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

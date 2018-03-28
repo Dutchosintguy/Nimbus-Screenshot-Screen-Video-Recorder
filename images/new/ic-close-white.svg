@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-close-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-close-white">
+            <g>
+                <rect id="Rectangle-28" x="0" y="0" width="12" height="12"></rect>
+                <path d="M6,5.2 L2.8,2 L2,2.8 L5.2,6 L2,9.2 L2.8,10 L6,6.8 L9.2,10 L10,9.2 L6.8,6 L10,2.8 L9.2,2 L6,5.2 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

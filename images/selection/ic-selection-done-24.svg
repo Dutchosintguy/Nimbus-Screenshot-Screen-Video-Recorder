@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-selection-done-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1685.000000, -336.000000)">
+            <g transform="translate(1673.000000, 330.000000)">
+                <g transform="translate(12.000000, 6.000000)">
+                    <g>
+                        <rect x="0" y="0" width="24" height="24"></rect>
+                        <path d="M4,11 L10.0249378,17.0249378" stroke="#5A5A5A" stroke-width="4" stroke-linecap="round"></path>
+                        <path d="M22,5 L10.0249378,17.0249378" stroke="#5A5A5A" stroke-width="4" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

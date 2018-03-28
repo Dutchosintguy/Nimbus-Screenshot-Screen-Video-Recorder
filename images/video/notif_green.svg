@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>notif_green</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="23" cy="23" r="23"></circle>
+        <filter x="-8.7%" y="-4.3%" width="117.4%" height="117.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.152941176   0 0 0 0 0.909803922   0 0 0 0 0.419607843  0 0 0 0.344542572 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notif_green">
+            <g>
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#27E86B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <polygon id="Combined-Shape" fill="#FFFFFF" points="19.6754174 26.5473872 15.7016697 22.4571826 14.1344465 20.8440294 11 24.0703358 12.5672232 25.683489 18.1081942 31.3868468 19.6754174 33 20.4590291 32.1934234 21.2426407 31.3868468 33.4327768 18.8394596 35 17.2263064 31.8655535 14 30.2983303 15.6131532"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

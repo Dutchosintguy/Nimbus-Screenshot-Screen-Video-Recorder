@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.2450323,3.51424138 L2.75496774,3.51424138 L2.75496774,17.4857586 L19.2450323,17.4857586 L19.2450323,3.51424138 L19.2450323,3.51424138 Z M21.9929032,0.719793103 L21.9929032,0.719793103 L21.9929032,20.2802069 L0.00709677419,20.2802069 L0.00709677419,0.719793103 L21.9929032,0.719793103 L21.9929032,0.719793103 Z M17.8703871,16.0888966 L4.1296129,16.0888966 L4.1296129,13.2944483 L8.25212903,6.30868966 L13.8990323,13.2944483 L17.8732258,10.5 L17.8732258,16.0888966 L17.8703871,16.0888966 Z M13.7485806,7.00748276 C13.7468576,7.85724665 14.247195,8.6243153 15.016103,8.95072482 C15.7850111,9.27713433 16.6709188,9.09854128 17.2604043,8.49828875 C17.8498899,7.89803622 18.026751,6.99444889 17.7084528,6.20919913 C17.3901546,5.42394936 16.6394417,4.9118294 15.8066452,4.91182759 C14.6716683,4.91182511 13.7509289,5.84938191 13.7485806,7.00748276 L13.7485806,7.00748276 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-110.000000, -110.000000)" id="ic-image">
+            <g transform="translate(110.000000, 110.000000)">
+                <g id="Shape">
+                    <use fill="#7A7A7A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/NotoSans.eot');
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/NotoSans.eot?#iefix') format('embedded-opentype'), url('chrome-extension://__MSG_@@extension_id__/fonts/NotoSans.woff') format('woff'), url('chrome-extension://__MSG_@@extension_id__/fonts/NotoSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*timer*/
+.nsc-timer-button {
+    background: none;
+    border: none;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    padding: 0 12px;
+    color: #fff;
+    font-family: 'Noto Sans';
+    line-height: 1;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.nsc-timer-button:hover,
+.nsc-timer-button:focus {
+    background: none;
+}
+
+.nsc-timer {
+    background: rgba(59, 59, 59, 0.80);
+    border-radius: 4px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 110000;
+    padding: 8px 12px;
+    color: #fff;
+}
+
+.nsc-timer.capture-delayed {
+    top: 50px;
+    left: 50px;
+    transform: translate(0%, 0%);
+}
+
+.nsc-timer-content {
+    position: relative;
+    width: 88px;
+    height: 88px;
+}
+
+.nsc-timer-progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nsc-timer-progress svg {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.nsc-timer-sep {
+    background: #758386;
+    height: 1px;
+    margin: 7px 0;
+}
+
+.nsc-timer-cancel .nsc-button {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 3px;
+}

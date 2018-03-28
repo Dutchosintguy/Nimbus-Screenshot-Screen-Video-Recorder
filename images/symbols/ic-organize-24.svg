@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-organize-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="7" width="9" height="9" rx="2"></rect>
+        <rect id="path-2" x="15" y="0" width="7" height="7" rx="2"></rect>
+        <rect id="path-3" x="15" y="8" width="7" height="7" rx="2"></rect>
+        <rect id="path-4" x="15" y="16" width="7" height="7" rx="2"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-organize-24">
+            <g>
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <g id="Rectangle-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#5A5A5A" stroke-width="1" x="2.5" y="7.5" width="8" height="8" rx="2"></rect>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#D1D1D1" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#5A5A5A" stroke-width="1" x="15.5" y="0.5" width="6" height="6" rx="2"></rect>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#D1D1D1" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#5A5A5A" stroke-width="1" x="15.5" y="8.5" width="6" height="6" rx="2"></rect>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#D1D1D1" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#5A5A5A" stroke-width="1" x="15.5" y="16.5" width="6" height="6" rx="2"></rect>
+                </g>
+                <rect id="Rectangle-6" fill="#5A5A5A" x="12" y="4" width="1" height="16"></rect>
+                <rect id="Rectangle-7" fill="#5A5A5A" x="12" y="4" width="2" height="1"></rect>
+                <rect id="Rectangle-7" fill="#5A5A5A" x="12" y="19" width="2" height="1"></rect>
+                <rect id="Rectangle-7" fill="#5A5A5A" x="12" y="11" width="2" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

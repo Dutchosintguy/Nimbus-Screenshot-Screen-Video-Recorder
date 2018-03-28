@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-record-video-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="edit-panels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-edit-panel" transform="translate(-74.000000, -725.000000)">
+            <g id="tab" transform="translate(58.000000, 427.000000)">
+                <g id="ic-record-video-24" transform="translate(16.000000, 298.000000)">
+                    <g>
+                        <rect id="bounds" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M21.3487034,6.2967143 C22.2606893,5.67395694 23,6.06519743 23,7.16960828 L23,16.8257866 C23,17.93063 22.2646761,18.3241604 21.3487034,17.6986806 L13,11.9976975 L21.3487034,6.2967143 Z" id="Rectangle-3" fill="#5A5A5A"></path>
+                        <path d="M21.1554582,8.13233356 C21.6218858,7.83938184 22,8.05012988 22,8.61078592 L22,15.3879223 C22,15.945116 21.6235701,16.1603843 21.1554582,15.8663747 L15.843064,12.5297901 C15.3766365,12.2368384 15.3749521,11.7629278 15.843064,11.4689181 L21.1554582,8.13233356 Z" id="Rectangle-3" fill="#FFFFFF"></path>
+                        <rect id="Rectangle-3" fill="#5A5A5A" x="2" y="4" width="17" height="16" rx="2"></rect>
+                        <rect id="Rectangle-4" fill="#FFFFFF" x="3" y="5" width="15" height="14" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

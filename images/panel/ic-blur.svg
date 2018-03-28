@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-blur</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-496.000000, -432.000000)">
+            <g transform="translate(484.000000, 420.000000)">
+                <g transform="translate(12.000000, 12.000000)">
+                    <g>
+                        <rect x="0" y="0" width="16" height="16"></rect>
+                        <path d="M14,9.79506096 C13.843,4.86452016 8,0 8,0 C8,0 2.161,4.86452016 2,9.79606127 L2,9.86308221 L2,9.99812441 L2,10.1081588 C2,13.431906 4.6862915,16 8,16 C11.3137085,16 14,13.431906 14,10.1171616 L14,9.99612379 C14,9.95811191 14,9.92910284 14,9.89809315 L14,9.79506096 Z" fill="#5A5A5A"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

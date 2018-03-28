@@ -1,0 +1,74 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/icons/128x128.png",
+         "16": "images/icons/16x16.png",
+         "48": "images/icons/48x48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_appName__"
+   },
+   "commands": {
+      "pause_video": {
+         "description": "Pause video recording",
+         "suggested_key": {
+            "default": "Ctrl+Shift+0",
+            "mac": "Command+Shift+0"
+         }
+      },
+      "start_desktop_video": {
+         "description": "Start record desktop",
+         "suggested_key": {
+            "default": "Ctrl+Shift+8",
+            "mac": "Command+Shift+8"
+         }
+      },
+      "start_tab_video": {
+         "description": "Start record tab/page",
+         "suggested_key": {
+            "default": "Ctrl+Shift+7",
+            "mac": "Command+Shift+7"
+         }
+      },
+      "stop_video": {
+         "description": "Stop video recording",
+         "suggested_key": {
+            "default": "Ctrl+Shift+9",
+            "mac": "Command+Shift+9"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "js/hotkeys.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://nimbus.everhelper.me",
+   "icons": {
+      "128": "images/icons/128x128.png",
+      "16": "images/icons/16x16.png",
+      "48": "images/icons/48x48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCE2FIgHdWkDJH0H3Idf+PaGQcCsuKkw1BpBXVjfVKprO9xu3LiZM8/4NVUAOGBktLe3NiBFurwNLsLMTO7WsknokwWvm15Z4wM6YGFuUta39/y07CDKq49OaAoui0RrN8ogf6gjcAQW3fDfO4a24vqSoYk3ypWX5ZjD/+egMUvIQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "43",
+   "name": "__MSG_appName__",
+   "oauth2": {
+      "client_id": "330587763390.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive", "https://www.googleapis.com/auth/drive.readonly", "https://www.googleapis.com/auth/drive.readonly.metadata", "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/youtube", "https://www.googleapis.com/auth/youtubepartner", "https://www.googleapis.com/auth/youtube.readonly", "https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtube.force-ssl" ]
+   },
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "*://*/*", "\u003Call_urls>", "downloads", "clipboardWrite", "clipboardRead", "tabs", "activeTab", "storage", "unlimitedStorage", "contextMenus", "identity", "desktopCapture", "tabCapture" ],
+   "short_name": "screen capture",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "8.5.5",
+   "web_accessible_resources": [ "favicon.png", "fonts/*", "images/*", "css/*", "template/*" ]
+}

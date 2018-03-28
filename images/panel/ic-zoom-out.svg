@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-zoom-out</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="14" height="14">
+            <rect x="1" y="1" width="14" height="14" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-73.000000, -38.000000)">
+            <g transform="translate(33.000000, 26.000000)">
+                <g transform="translate(12.000000, 12.000000)">
+                    <g transform="translate(28.000000, 0.000000)">
+                        <g>
+                            <rect x="0" y="0" width="16" height="16"></rect>
+                            <use stroke="#5A5A5A" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                            <polygon fill="#5A5A5A" points="14.2928932 15.7071068 15.7071068 14.2928932 12.7071068 11.2928932 11.2928932 12.7071068"></polygon>
+                            <rect fill="#5A5A5A" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) " x="7" y="5" width="2" height="6"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
