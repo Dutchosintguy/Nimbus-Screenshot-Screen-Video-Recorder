@@ -154,7 +154,6 @@ var slackShare = {
                 if (!data.ok) {
                     $.ambiance({message: 'error upload to slack', type: 'error', timeout: 5});
                 } else {
-                    tracker.send(SLACK_UPLOAD);
                     $.ambiance({message: 'Upload has completed', timeout: 5});
                 }
             }

@@ -24,10 +24,6 @@ function renderClassRoomButton(url) {
     });
 }
 
-var service = analytics.getService('screens_chrome');
-var tracker = service.getTracker('UA-67774717-13');
-tracker.sendAppView('MainView');
-var SLACK_UPLOAD = analytics.EventBuilder.builder().category('screenshot').action('uploadSlack');
 var videoBlob;
 var LS = {};
 var nimbus_screen = {
